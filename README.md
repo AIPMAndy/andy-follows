@@ -2,259 +2,456 @@
 
 **English** | [中文](#中文版)
 
-## Follow Builders, Not Influencers
+---
 
-An AI-powered digest that tracks top builders, investors, and thought leaders across three key areas:
+## 🏠 Serving Andy's Freedom House (安迪自由之屋)
 
-1. **🏗️ AI + Product** — Product development, design, and commercialization insights from builders
-2. **💰 AI + Investment** — Funding trends, market analysis, and strategic insights from VCs and founders
-3. **⚖️ AI + IP** — Intellectual property, open source debates, and legal/policy developments
+**Andy Follows** is an AI-powered intelligence system designed specifically for **Andy's Freedom House** — a strategic framework built on three pillars that represent the future intersection of AI with critical domains:
 
-**Philosophy**: Follow people who build, invest in, and shape AI — not influencers who regurgitate information. This digest focuses on first-principles thinking and original insights from overseas sources.
+1. **🏗️ AI + Product** — Understanding how AI transforms product development, design, and user experience
+2. **💰 AI + Investment** — Tracking capital flows, market dynamics, and business models in the AI economy  
+3. **⚖️ AI + IP** — Monitoring intellectual property battles, open source movements, and regulatory landscapes
 
-## What You Get
+This system exists to answer one question: **What are the builders, investors, and shapers of AI actually doing and thinking?**
 
-A daily or weekly digest delivered to your preferred messaging app (Telegram, Lark, or in-chat) with:
+---
 
-- **AI Product insights**: New launches, technical deep-dives, UX patterns, and product strategy
-- **AI Investment insights**: Funding rounds, market analysis, business models, and VC perspectives
-- **AI IP insights**: Open source releases, copyright cases, patents, and regulatory developments
-- Links to all original content
-- Available in English, Chinese, or Bilingual
+## 💡 The Value Proposition
 
-## Quick Start
+### Why This Matters
+
+In the age of AI, **information asymmetry is the biggest risk**. Most AI coverage is:
+- 🚫 Second-hand commentary from journalists who don't build
+- 🚫 Hype-driven marketing from influencers chasing engagement
+- 🚫 Superficial summaries that miss strategic implications
+- 🚫 Noise that drowns out signal
+
+**Andy Follows** cuts through the noise by:
+
+✅ **Going to the source** — Direct insights from founders building billion-dollar AI companies, VCs deploying capital, and researchers shaping the field  
+✅ **First-principles thinking** — Understanding *why* decisions are made, not just *what* happened  
+✅ **Strategic context** — Connecting product launches to investment trends to IP battles  
+✅ **Global perspective** — Focusing on overseas (primarily US/Europe) sources where AI innovation is concentrated  
+✅ **AI-native filtering** — Strictly relevant AI content, no tangential tech news
+
+### What You Gain
+
+**Time**: 30-60 minutes of curated insights daily vs. hours of scrolling Twitter/blogs  
+**Clarity**: Strategic signal separated from marketing noise  
+**Edge**: First-principles insights before they become mainstream wisdom  
+**Alignment**: Content prioritized by your strategic framework (Product > Investment > IP)
+
+### Real-World Impact
+
+This system helps you:
+- **Make better product decisions** — Learn from builders who solved similar problems
+- **Spot investment opportunities** — See where capital and talent are flowing
+- **Navigate IP risks** — Understand open source vs. closed debates before they affect you
+- **Stay ahead of regulation** — Track policy developments that could change the game
+
+---
+
+## 🎯 Philosophy: Follow Builders, Not Influencers
+
+**The Andy Follows Principle**: 
+
+> Follow people who **build** products, **deploy** capital, and **shape** policy — not those who merely **talk** about it.
+
+This means:
+- ✅ Andrej Karpathy (builds AI systems) → **Included**
+- ❌ Generic "AI influencer" (retweets news) → **Excluded**
+- ✅ Marc Andreessen (deploys billions in AI) → **Included**  
+- ❌ "AI thought leader" (no skin in the game) → **Excluded**
+
+**Overseas Focus**: AI innovation is concentrated in the US and Europe. Chinese sources are intentionally excluded to maintain focus on the markets and ecosystems most relevant to global AI development.
+
+**AI-First**: Strict relevance filtering ensures you only see AI-related content. Elon Musk's SpaceX launches? Filtered out. His xAI announcements? Included.
+
+---
+
+## 📊 What You Get
+
+A daily or weekly digest delivered to your preferred channel (Telegram, Lark, or in-chat) with:
+
+### 🏗️ AI + Product (Priority 1: Foundational Knowledge)
+- Product launches and updates from AI companies
+- Technical deep-dives on implementation challenges  
+- UX/UI patterns for AI interfaces
+- Developer experience insights
+- Product strategy and positioning
+
+**Example insights**: How Anthropic optimized Claude's context window for 80% latency reduction; Vercel's v0 reaching 1M developers with AI-first design tools.
+
+### 💰 AI + Investment (Priority 2: Market Intelligence)
+- Funding rounds and valuations
+- VC investment theses and market analysis
+- Business model innovations
+- M&A activity and strategic moves
+- Unit economics and profitability paths
+
+**Example insights**: OpenAI's $6.6B raise signals path to profitability; a16z's thesis on foundation model margin compression.
+
+### ⚖️ AI + IP (Priority 3: Legal & Policy Context)
+- Open source vs. closed source debates
+- Copyright and patent litigation
+- Regulatory developments (EU AI Act, etc.)
+- Licensing strategies
+- Policy proposals and their implications
+
+**Example insights**: Meta's Llama 3.1 open source strategy; GitHub Copilot copyright case surviving dismissal.
+
+---
+
+## 🚀 Quick Start
 
 ### For Claude Code Users
 
-1. Clone this skill:
+1. **Clone this repository**:
 ```bash
-git clone https://github.com/YOUR_USERNAME/andy-follows.git ~/.claude/skills/andy-follows
+git clone https://github.com/andyzheng547/andy-follows.git ~/.claude/skills/andy-follows
 cd ~/.claude/skills/andy-follows/scripts && npm install
 ```
 
-2. Say "set up Andy Follows" or invoke `/andy-follows`
+2. **Set up via conversation**:
+```
+Say: "set up Andy Follows" or invoke /andy-follows
+```
 
-3. The agent walks you through setup conversationally — no config files to edit
+3. **Configure delivery** (the agent will guide you):
+   - Telegram bot (optional)
+   - Lark/Feishu webhook (optional)
+   - Language preference (English, Chinese, or Bilingual)
+   - Frequency (daily or weekly)
+
+4. **Receive your first digest immediately**
 
 ### For Manual Setup
 
-1. Clone the repository
-2. Install dependencies: `cd scripts && npm install`
-3. Configure delivery in `~/.andy-follows/.env`:
 ```bash
-TELEGRAM_BOT_TOKEN=your_token
-TELEGRAM_CHAT_ID=your_chat_id
-LARK_WEBHOOK_URL=your_webhook
-DIGEST_LANGUAGE=bilingual
+# Clone
+git clone https://github.com/andyzheng547/andy-follows.git
+cd andy-follows/scripts && npm install
+
+# Configure
+mkdir -p ~/.andy-follows
+cp .env.example ~/.andy-follows/.env
+# Edit ~/.andy-follows/.env with your credentials
+
+# Run
+node scripts/generate-digest.js && node scripts/deliver.js
 ```
-4. Run: `node scripts/generate-digest.js && node scripts/deliver.js`
 
-## Changing Settings
+---
 
-Your delivery preferences are configurable through conversation with Claude:
+## 📡 Information Sources (45+ Total)
 
-- "Switch to weekly digests on Monday mornings"
-- "Change language to Chinese"
-- "Make the summaries shorter"
-- "Show me my current settings"
+### AI + Product Builders (19 sources)
+**Twitter**: Andrej Karpathy, Swyx, Josh Woodward, Boris Cherny, Guillermo Rauch, Amjad Masad, Alex Albert, and more  
+**Blogs**: Anthropic Engineering, OpenAI Blog, Google AI Blog, Vercel AI  
+**Podcasts**: Latent Space
 
-## Default Sources
+### AI + Investment Leaders (16 sources)
+**Twitter**: Marc Andreessen, Garry Tan, Matt Turck, Sam Altman, Aaron Levie, and more  
+**Blogs**: a16z AI, Sequoia AI, YC Blog, FirstMark  
+**Podcasts**: No Priors, Training Data, The MAD Podcast
 
-### AI + Product Builders (14+)
+### AI + IP Thought Leaders (10 sources)
+**Twitter**: Yann LeCun, Ethan Mollick, François Chollet, Elon Musk (AI-only), and more  
+**Blogs**: Hugging Face, Stability AI, Meta AI, OpenAI Policy  
+**Podcasts**: Unsupervised Learning
 
-[Andrej Karpathy](https://twitter.com/karpathy), [Swyx](https://twitter.com/swyx), [Josh Woodward](https://twitter.com/joshwhiton), [Boris Cherny](https://twitter.com/bcherny), [Guillermo Rauch](https://twitter.com/rauchg), [Amjad Masad](https://twitter.com/amasad), [Alex Albert](https://twitter.com/alexalbert__), and more...
+All sources are **overseas-focused** (primarily US/Europe) and represent **first-principles thinkers** with real skin in the game.
 
-### AI + Investment Leaders (9+)
+---
 
-[Marc Andreessen](https://twitter.com/pmarca), [Garry Tan](https://twitter.com/garrytan), [Matt Turck](https://twitter.com/mattturck), [Sam Altman](https://twitter.com/sama), [Aaron Levie](https://twitter.com/levie), and more...
+## 🔧 How It Works
 
-### AI + IP Thought Leaders (5+)
+### Architecture
 
-[Yann LeCun](https://twitter.com/ylecun), [Ethan Mollick](https://twitter.com/emollick), [François Chollet](https://twitter.com/fchollet), [Elon Musk](https://twitter.com/elonmusk) (AI-related only), and more...
+```
+Central Feed (GitHub) → Your Agent (Claude) → AI Processing → Multi-Channel Delivery
+```
 
-### Official Blogs (8+)
+1. **Central feed updated daily** (via GitHub Actions)
+   - Fetches from Twitter API, RSS feeds, YouTube transcripts
+   - Generates JSON feeds for each category
+   - No API keys needed on your end
 
-Anthropic Engineering, OpenAI Blog, Google AI Blog, a16z AI, Hugging Face, Meta AI, and more...
+2. **Your agent processes locally**
+   - Fetches feeds (one HTTP request)
+   - Filters for AI relevance (using dedicated prompt)
+   - Summarizes per category (using specialized prompts)
+   - Generates bilingual output if configured
 
-### Podcasts (6+)
-
-Latent Space, No Priors, Training Data, Unsupervised Learning, The MAD Podcast, AI & I by Every
-
-## How It Works
-
-1. A central feed is updated daily with the latest content from all sources
-2. Your agent fetches the feeds — one HTTP request, no API keys needed
-3. AI filters for relevance and summarizes using your preferences
-4. The digest is delivered to your messaging app or shown in-chat
+3. **Delivered to your channels**
+   - Telegram bot
+   - Lark/Feishu webhook
+   - Claude in-chat display
 
 See [examples/sample-digest.md](examples/sample-digest.md) for sample output.
 
-## Key Features
+---
 
-### AI Relevance Filtering
-- Strictly filters for AI-related content
-- Elon Musk tweets about SpaceX? Filtered out.
-- Elon Musk tweets about xAI or Grok? Included.
+## ✨ Key Features
 
-### Priority Ordering
-Content is presented in order of strategic importance:
-1. AI + Product (foundational knowledge)
-2. AI + Investment (market insights)
-3. AI + IP (policy & legal context)
+### Strict AI Relevance Filtering
+Every piece of content is evaluated against AI relevance criteria:
+- ✅ Discusses AI models, products, companies, or research
+- ✅ About AI investment, funding, or market dynamics  
+- ✅ Covers AI policy, copyright, or regulation
+- ❌ General tech news without AI component
+- ❌ Personal content unrelated to AI
+
+**Example**: Elon Musk tweets about SpaceX launch → Filtered out. Elon Musk tweets about xAI's Grok model → Included.
+
+### Priority-Based Ordering
+Content is presented in strategic priority order:
+1. **AI + Product** (most important — foundational knowledge)
+2. **AI + Investment** (market intelligence)
+3. **AI + IP** (legal and policy context)
 
 ### Bilingual Support
-Native support for English/Chinese bilingual output with proper terminology translation.
+Native support for:
+- English only
+- Chinese only
+- **Bilingual (default)** — English insight followed by Chinese translation with proper terminology
 
 ### Customizable Prompts
-All summarization logic is in plain-English markdown files you can customize:
-- `prompts/summarize-ai-product.md`
-- `prompts/summarize-ai-investment.md`
-- `prompts/summarize-ai-ip.md`
-- `prompts/filter-ai-relevance.md`
+All summarization logic lives in editable markdown files:
+- `prompts/summarize-ai-product.md` — Product insights extraction
+- `prompts/summarize-ai-investment.md` — Investment analysis
+- `prompts/summarize-ai-ip.md` — IP/legal developments
+- `prompts/filter-ai-relevance.md` — Relevance filtering
+- `prompts/translate.md` — Translation guidelines
 
-## Customization
+Tell Claude "make summaries more technical" or edit files directly.
 
-### Through Conversation (Recommended)
-Tell your agent what you want:
-- "Focus more on AI product strategy"
-- "I want deeper technical details"
-- "Make it more concise"
+---
 
-### Direct Editing (Power Users)
-Edit the prompt files directly. Changes take effect on the next digest.
+## 🆚 Comparison with follow-builders
 
-## Privacy
-
-- No API keys sent anywhere — all content fetched centrally
-- Telegram/Lark credentials stored locally in `~/.andy-follows/.env`
-- Only reads public content (public posts, blogs, podcasts)
-- Your configuration and reading history stay on your machine
-
-## Requirements
-
-- An AI agent (Claude Code or similar)
-- Node.js 18+ (for running scripts)
-- Internet connection (to fetch the central feed)
-
-No API keys needed for content access.
-
-## Installation
-
-### Claude Code
-```bash
-git clone https://github.com/YOUR_USERNAME/andy-follows.git ~/.claude/skills/andy-follows
-cd ~/.claude/skills/andy-follows/scripts && npm install
-```
-
-### OpenClaw
-```bash
-git clone https://github.com/YOUR_USERNAME/andy-follows.git ~/skills/andy-follows
-cd ~/skills/andy-follows/scripts && npm install
-```
-
-## Comparison with follow-builders
-
-Andy Follows is inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) but focuses specifically on:
+Andy Follows is inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) by Zara Zhang, but customized for Andy's Freedom House framework:
 
 | Feature | follow-builders | andy-follows |
 |---------|----------------|--------------|
-| **Focus** | General AI builders | AI + Product/Investment/IP |
+| **Focus** | General AI builders | AI + Product/Investment/IP pillars |
 | **Geography** | Global | Overseas only (non-China) |
-| **Filtering** | General AI | Strict AI relevance + category fit |
-| **Structure** | Single feed | 3 category feeds with priority |
-| **Sources** | 26 Twitter + 6 podcasts | 28+ Twitter + 6 podcasts + 8+ blogs |
+| **Filtering** | General AI content | Strict AI relevance + category fit |
+| **Structure** | Single unified feed | 3 category feeds with priority ordering |
+| **Sources** | 26 Twitter + 6 podcasts + 2 blogs | 28 Twitter + 5 podcasts + 12 blogs |
+| **Philosophy** | Follow builders | Follow builders + first-principles focus |
 
-## Contributing
+**Credits**: The central feed architecture and conversational setup approach are adapted from the excellent follow-builders project.
+
+---
+
+## 🔐 Privacy & Security
+
+- ✅ **No API keys sent anywhere** — All content fetched centrally by GitHub Actions
+- ✅ **Local credential storage** — Telegram/Lark tokens stored in `~/.andy-follows/.env`
+- ✅ **Public content only** — Only reads publicly available posts, blogs, podcasts
+- ✅ **Your data stays local** — Configuration and history never leave your machine
+
+---
+
+## 🛠️ Customization
+
+### Conversational (Recommended)
+Tell Claude what you want:
+- "Focus more on AI product strategy"
+- "I want deeper technical details"  
+- "Make summaries more concise"
+- "Switch to weekly digests"
+
+### Direct Editing (Power Users)
+Edit files in `prompts/` directory. Changes take effect immediately on next digest.
+
+---
+
+## 🤝 Contributing
 
 Contributions welcome! Especially:
-- Additional high-quality sources (must be overseas, builder-focused)
-- Improvements to summarization prompts
-- Bug fixes and performance improvements
+- **High-quality overseas sources** (must be builders/investors/shapers, not influencers)
+- **Prompt improvements** for better summarization
+- **Bug fixes and enhancements**
 
-## Acknowledgments
+Open an issue or submit a PR.
 
-This project is inspired by [follow-builders](https://github.com/zarazhangrui/follow-builders) by Zara Zhang. The central feed architecture and conversational setup approach are adapted from that excellent project.
+---
 
-## License
+## 📄 License
 
-MIT
+MIT License — Free to use, modify, and share.
+
+---
+
+## 🙏 Acknowledgments
+
+This project is inspired by and builds upon [follow-builders](https://github.com/zarazhangrui/follow-builders) by Zara Zhang. The central feed architecture and conversational setup are adapted from that excellent project.
+
+Special thanks to the AI community for building in public and sharing insights that make projects like this possible.
 
 ---
 
 ## 中文版
 
-### 关注建设者，而非影响者
+### 🏠 服务于安迪自由之屋
 
-一个 AI 驱动的资讯摘要，追踪三大关键领域的顶级建设者、投资人和思想领袖：
+**Andy Follows** 是一个专为**安迪自由之屋**设计的 AI 情报系统——一个建立在三大支柱之上的战略框架，代表了 AI 与关键领域的未来交汇：
 
-1. **🏗️ AI + 产品** — 来自建设者的产品开发、设计和商业化洞察
-2. **💰 AI + 投资** — 来自 VC 和创始人的融资趋势、市场分析和战略洞察
-3. **⚖️ AI + 知识产权** — 开源、法律发展和政策动态
+1. **🏗️ AI + 产品** — 理解 AI 如何改变产品开发、设计和用户体验
+2. **💰 AI + 投资** — 追踪 AI 经济中的资本流动、市场动态和商业模式
+3. **⚖️ AI + 知识产权** — 监控知识产权战争、开源运动和监管格局
 
-**理念**：关注真正在构建、投资和塑造 AI 的人——而非转述信息的影响者。专注于第一性原理思考和来自海外的原创洞察。
-
-### 你将获得什么
-
-每日或每周摘要，推送到你的消息应用（Telegram、飞书或对话内显示）：
-
-- **AI 产品洞察**：新产品发布、技术深度、UX 模式、产品策略
-- **AI 投资洞察**：融资轮次、市场分析、商业模式、VC 视角
-- **AI 知识产权洞察**：开源发布、版权案例、专利、监管动态
-- 所有原始内容链接
-- 支持英文、中文或双语
-
-### 快速开始
-
-#### Claude Code 用户
-
-1. 克隆此技能：
-```bash
-git clone https://github.com/YOUR_USERNAME/andy-follows.git ~/.claude/skills/andy-follows
-cd ~/.claude/skills/andy-follows/scripts && npm install
-```
-
-2. 对 Claude 说："设置 Andy Follows" 或调用 `/andy-follows`
-
-3. Agent 会通过对话引导你完成设置——无需手动编辑配置文件
-
-### 修改设置
-
-通过与 Claude 对话来配置：
-
-- "切换到每周一早晨的摘要"
-- "改成中文"
-- "让摘要更简洁"
-- "显示我当前的设置"
-
-### 如何运作
-
-1. 中心化 feed 每天更新所有信息源的最新内容
-2. 你的 agent 获取 feed——一个 HTTP 请求，无需 API 密钥
-3. AI 根据你的偏好过滤相关性并生成摘要
-4. 摘要推送到你的消息应用或在对话中显示
-
-查看 [examples/sample-digest.md](examples/sample-digest.md) 了解示例输出。
-
-### 主要特性
-
-#### AI 相关性过滤
-- 严格过滤 AI 相关内容
-- Elon Musk 发 SpaceX 推文？过滤掉。
-- Elon Musk 发 xAI 或 Grok 推文？保留。
-
-#### 优先级排序
-内容按战略重要性排序：
-1. AI + 产品（基础知识）
-2. AI + 投资（市场洞察）
-3. AI + 知识产权（政策和法律背景）
-
-#### 双语支持
-原生支持中英双语输出，专业术语翻译优化。
-
-### 许可证
-
-MIT
+这个系统存在的目的是回答一个问题：**AI 的建设者、投资者和塑造者们究竟在做什么、在想什么？**
 
 ---
 
-**Generated by Andy Follows — Follow builders, not influencers**
+### 💡 价值主张
+
+#### 为什么重要
+
+在 AI 时代，**信息不对称是最大的风险**。大多数 AI 报道是：
+- 🚫 不懂技术的记者的二手评论
+- 🚫 追逐流量的网红的炒作营销
+- 🚫 错过战略意义的肤浅总结
+- 🚫 淹没信号的噪音
+
+**Andy Follows** 通过以下方式切入本质：
+
+✅ **直达源头** — 来自建设十亿美元 AI 公司的创始人、部署资本的 VC、塑造领域的研究者的直接洞察  
+✅ **第一性原理思考** — 理解决策背后的*原因*，而不仅仅是*发生了什么*  
+✅ **战略背景** — 连接产品发布、投资趋势和知识产权战争  
+✅ **全球视野** — 聚焦海外（主要是美国/欧洲）信息源，AI 创新的集中地  
+✅ **AI 原生过滤** — 严格的 AI 相关内容，无关的科技新闻被排除
+
+#### 你将获得什么
+
+**时间**：每天 30-60 分钟精选洞察 vs. 数小时刷 Twitter/博客  
+**清晰度**：战略信号与营销噪音分离  
+**优势**：在第一性原理洞察成为主流之前获取  
+**对齐**：按你的战略框架优先排序（产品 > 投资 > IP）
+
+#### 实际影响
+
+这个系统帮助你：
+- **做出更好的产品决策** — 向解决类似问题的建设者学习
+- **发现投资机会** — 看到资本和人才的流向
+- **规避 IP 风险** — 在开源 vs 闭源辩论影响你之前理解它
+- **领先监管** — 追踪可能改变游戏规则的政策发展
+
+---
+
+### 🎯 理念：关注建设者，而非影响者
+
+**Andy Follows 原则**：
+
+> 关注那些**构建**产品、**部署**资本、**塑造**政策的人——而非仅仅**谈论**它的人。
+
+这意味着：
+- ✅ Andrej Karpathy（构建 AI 系统）→ **纳入**
+- ❌ 泛泛的"AI 网红"（转发新闻）→ **排除**
+- ✅ Marc Andreessen（部署数十亿美元于 AI）→ **纳入**
+- ❌ "AI 思想领袖"（没有实战）→ **排除**
+
+**海外聚焦**：AI 创新集中在美国和欧洲。中国信息源被有意排除，以保持对全球 AI 发展最相关的市场和生态系统的关注。
+
+**AI 优先**：严格的相关性过滤确保你只看到 AI 相关内容。马斯克的 SpaceX 发射？过滤掉。他的 xAI 公告？保留。
+
+---
+
+### 📊 你将获得什么
+
+每日或每周摘要，推送到你的首选渠道（Telegram、飞书或对话内显示）：
+
+#### 🏗️ AI + 产品（优先级 1：基础知识）
+- AI 公司的产品发布和更新
+- 实现挑战的技术深度解析
+- AI 界面的 UX/UI 模式
+- 开发者体验洞察
+- 产品策略和定位
+
+**示例洞察**：Anthropic 如何优化 Claude 的上下文窗口以降低 80% 延迟；Vercel 的 v0 如何通过 AI 优先设计工具达到 100 万开发者。
+
+#### 💰 AI + 投资（优先级 2：市场情报）
+- 融资轮次和估值
+- VC 投资理论和市场分析
+- 商业模式创新
+- 并购活动和战略动向
+- 单位经济效益和盈利路径
+
+**示例洞察**：OpenAI 的 66 亿美元融资暗示盈利路径；a16z 关于基础模型毛利压缩的理论。
+
+#### ⚖️ AI + 知识产权（优先级 3：法律与政策背景）
+- 开源 vs 闭源辩论
+- 版权和专利诉讼
+- 监管发展（欧盟 AI 法案等）
+- 许可策略
+- 政策提案及其影响
+
+**示例洞察**：Meta 的 Llama 3.1 开源战略；GitHub Copilot 版权案件通过驳回动议。
+
+---
+
+### 🚀 快速开始
+
+#### Claude Code 用户
+
+1. **克隆仓库**：
+```bash
+git clone https://github.com/andyzheng547/andy-follows.git ~/.claude/skills/andy-follows
+cd ~/.claude/skills/andy-follows/scripts && npm install
+```
+
+2. **通过对话设置**：
+```
+说："设置 Andy Follows" 或调用 /andy-follows
+```
+
+3. **配置推送**（agent 会引导你）：
+   - Telegram bot（可选）
+   - 飞书 webhook（可选）
+   - 语言偏好（英文、中文或双语）
+   - 频率（每日或每周）
+
+4. **立即收到第一份摘要**
+
+---
+
+### 📡 信息源（45+ 总计）
+
+#### AI + 产品建设者（19 个源）
+**Twitter**：Andrej Karpathy, Swyx, Josh Woodward, Boris Cherny, Guillermo Rauch, Amjad Masad, Alex Albert 等  
+**博客**：Anthropic Engineering, OpenAI Blog, Google AI Blog, Vercel AI  
+**播客**：Latent Space
+
+#### AI + 投资领袖（16 个源）
+**Twitter**：Marc Andreessen, Garry Tan, Matt Turck, Sam Altman, Aaron Levie 等  
+**博客**：a16z AI, Sequoia AI, YC Blog, FirstMark  
+**播客**：No Priors, Training Data, The MAD Podcast
+
+#### AI + 知识产权思想领袖（10 个源）
+**Twitter**：Yann LeCun, Ethan Mollick, François Chollet, Elon Musk（仅 AI）等  
+**博客**：Hugging Face, Stability AI, Meta AI, OpenAI Policy  
+**播客**：Unsupervised Learning
+
+所有信息源都**聚焦海外**（主要是美国/欧洲），代表有真正实战经验的**第一性原理思考者**。
+
+---
+
+### 📄 许可证
+
+MIT License — 可自由使用、修改和分享。
+
+---
+
+### 🙏 致谢
+
+本项目受 Zara Zhang 的 [follow-builders](https://github.com/zarazhangrui/follow-builders) 启发并基于其构建。中心化 feed 架构和对话式设置均改编自该优秀项目。
+
+特别感谢 AI 社区在公开场合构建并分享洞察，使这样的项目成为可能。
+
+---
+
+**Generated by Andy Follows — Follow builders, not influencers**  
+**为安迪自由之屋服务 — 关注建设者，而非影响者**
