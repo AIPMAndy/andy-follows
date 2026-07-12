@@ -1,0 +1,121 @@
+{
+  "category": "AI + Product",
+  "description": "AI product development, design, and commercialization insights from builders",
+  "priority": 1,
+  "twitter_accounts": [
+    {
+      "username": "karpathy",
+      "name": "Andrej Karpathy",
+      "role": "AI Researcher & Builder",
+      "focus": "AI fundamentals, product thinking, education"
+    },
+    {
+      "username": "swyx",
+      "name": "Swyx",
+      "role": "AI Engineer & PM",
+      "focus": "AI engineering, product development, developer experience"
+    },
+    {
+      "username": "joshwhiton",
+      "name": "Josh Woodward",
+      "role": "VP Product at Anthropic",
+      "focus": "Claude product strategy, AI product management"
+    },
+    {
+      "username": "bcherny",
+      "name": "Boris Cherny",
+      "role": "Engineer at Anthropic",
+      "focus": "AI product engineering, Claude features"
+    },
+    {
+      "username": "tszzl",
+      "name": "Thibault Sottiaux",
+      "role": "AI Product Builder",
+      "focus": "AI product design, user experience"
+    },
+    {
+      "username": "petergyang",
+      "name": "Peter Yang",
+      "role": "AI Product Lead",
+      "focus": "AI product strategy, growth"
+    },
+    {
+      "username": "rauchg",
+      "name": "Guillermo Rauch",
+      "role": "CEO of Vercel",
+      "focus": "AI-powered developer tools, v0.dev"
+    },
+    {
+      "username": "amasad",
+      "name": "Amjad Masad",
+      "role": "CEO of Replit",
+      "focus": "AI coding tools, developer experience"
+    },
+    {
+      "username": "alexalbert__",
+      "name": "Alex Albert",
+      "role": "Head of Claude Relations",
+      "focus": "Claude use cases, AI product applications"
+    },
+    {
+      "username": "divergentdave",
+      "name": "Cat Wu",
+      "role": "PM at Anthropic",
+      "focus": "Claude product features"
+    },
+    {
+      "username": "thariqsaleh",
+      "name": "Thariq",
+      "role": "AI Product Designer",
+      "focus": "AI UX/UI design"
+    },
+    {
+      "username": "googlelabs",
+      "name": "Google Labs",
+      "role": "Google AI Experiments",
+      "focus": "Experimental AI products"
+    },
+    {
+      "username": "steipete",
+      "name": "Peter Steinberger",
+      "role": "Founder of PSPDFKit",
+      "focus": "AI-powered document tools"
+    },
+    {
+      "username": "danshipper",
+      "name": "Dan Shipper",
+      "role": "Co-founder of Every",
+      "focus": "AI product writing, analysis"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering",
+      "rss": "https://www.anthropic.com/engineering/rss.xml",
+      "focus": "Claude engineering deep-dives"
+    },
+    {
+      "name": "OpenAI Blog",
+      "url": "https://openai.com/blog",
+      "focus": "GPT product updates and research"
+    },
+    {
+      "name": "Google AI Blog",
+      "url": "https://ai.googleblog.com",
+      "focus": "Google AI products and research"
+    },
+    {
+      "name": "Vercel Blog - AI",
+      "url": "https://vercel.com/blog/category/ai",
+      "focus": "AI developer tools"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Latent Space",
+      "youtube_channel": "@LatentSpaceTV",
+      "focus": "AI engineering and product"
+    }
+  ]
+}

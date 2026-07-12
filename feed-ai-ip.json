@@ -1,0 +1,11 @@
+{
+  "category": "AI + IP",
+  "updated_at": "2026-07-12T00:00:00Z",
+  "items": [],
+  "sources": {
+    "twitter_accounts": 5,
+    "blogs": 4,
+    "podcasts": 1
+  },
+  "note": "This feed is updated daily via GitHub Actions. Initial setup complete."
+}

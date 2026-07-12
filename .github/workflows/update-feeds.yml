@@ -1,0 +1,43 @@
+name: Update Feeds
+
+on:
+  schedule:
+    # Run daily at 6:47 AM UTC (avoid :00 and :30 to reduce API load spikes)
+    - cron: '47 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+
+      - name: Fetch feeds
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          cd scripts
+          node fetch-feeds.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add feed-*.json state-feed.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update feeds [skip ci]" && git push)

@@ -1,0 +1,100 @@
+{
+  "category": "AI + Investment",
+  "description": "AI industry investment insights from top VCs and founders",
+  "priority": 2,
+  "twitter_accounts": [
+    {
+      "username": "pmarca",
+      "name": "Marc Andreessen",
+      "role": "Co-founder of a16z",
+      "focus": "AI investment thesis, tech trends"
+    },
+    {
+      "username": "garrytan",
+      "name": "Garry Tan",
+      "role": "CEO of Y Combinator",
+      "focus": "AI startup funding, YC batch insights"
+    },
+    {
+      "username": "mattturck",
+      "name": "Matt Turck",
+      "role": "Managing Director at FirstMark",
+      "focus": "AI market landscape, MAD (data/AI) reports"
+    },
+    {
+      "username": "sama",
+      "name": "Sam Altman",
+      "role": "CEO of OpenAI",
+      "focus": "OpenAI strategy, AGI vision, funding"
+    },
+    {
+      "username": "levie",
+      "name": "Aaron Levie",
+      "role": "CEO of Box",
+      "focus": "Enterprise AI adoption, market trends"
+    },
+    {
+      "username": "ryojl",
+      "name": "Ryo Lu",
+      "role": "Investor",
+      "focus": "AI investment insights"
+    },
+    {
+      "username": "adityaag",
+      "name": "Aditya Agarwal",
+      "role": "Partner at South Park Commons",
+      "focus": "AI company building, early-stage investment"
+    },
+    {
+      "username": "nikunjk",
+      "name": "Nikunj Kothari",
+      "role": "Investor & Builder",
+      "focus": "AI startups, market analysis"
+    },
+    {
+      "username": "nanyu",
+      "name": "Nan Yu",
+      "role": "Investor",
+      "focus": "AI investment trends"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "a16z AI Blog",
+      "url": "https://a16z.com/tag/ai/",
+      "focus": "AI investment insights from Andreessen Horowitz"
+    },
+    {
+      "name": "Sequoia Capital - AI",
+      "url": "https://www.sequoiacap.com/topics/ai/",
+      "focus": "AI market analysis and portfolio insights"
+    },
+    {
+      "name": "YC Blog - AI",
+      "url": "https://www.ycombinator.com/blog/tag/ai",
+      "focus": "AI startup advice and trends"
+    },
+    {
+      "name": "FirstMark Blog",
+      "url": "https://firstmark.com/blog/",
+      "focus": "Data and AI investment insights"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "No Priors",
+      "youtube_channel": "@nopriorspod",
+      "focus": "AI founders and investors"
+    },
+    {
+      "name": "Training Data",
+      "youtube_channel": "@TrainingDataPod",
+      "focus": "AI business and investment"
+    },
+    {
+      "name": "The MAD Podcast",
+      "youtube_channel": "@themadpodcast",
+      "focus": "Data and AI market insights"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "last_updated": "2026-07-12T00:00:00Z",
+  "feeds": [
+    "feed-ai-product.json",
+    "feed-ai-investment.json",
+    "feed-ai-ip.json"
+  ],
+  "status": "ready",
+  "version": "1.0.0"
+}

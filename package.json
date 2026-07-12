@@ -1,0 +1,28 @@
+{
+  "name": "andy-follows",
+  "version": "1.0.0",
+  "description": "AI-powered digest focusing on AI + Product, AI + Investment, and AI + IP from top builders and investors",
+  "main": "scripts/generate-digest.js",
+  "scripts": {
+    "fetch": "node scripts/fetch-feeds.js",
+    "digest": "node scripts/generate-digest.js",
+    "deliver": "node scripts/deliver.js",
+    "test": "node scripts/test-config.js"
+  },
+  "keywords": [
+    "ai",
+    "digest",
+    "newsletter",
+    "product",
+    "investment",
+    "ip"
+  ],
+  "author": "Andy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "node-fetch": "^3.3.0",
+    "rss-parser": "^3.13.0"
+  }
+}

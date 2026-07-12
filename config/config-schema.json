@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "description": "Andy Follows - AI-powered digest focusing on AI + Product, AI + Investment, and AI + IP",
+  "categories": [
+    {
+      "id": "ai-product",
+      "name": "AI + Product",
+      "priority": 1,
+      "enabled": true,
+      "source_file": "sources-ai-product.json"
+    },
+    {
+      "id": "ai-investment",
+      "name": "AI + Investment",
+      "priority": 2,
+      "enabled": true,
+      "source_file": "sources-ai-investment.json"
+    },
+    {
+      "id": "ai-ip",
+      "name": "AI + IP",
+      "priority": 3,
+      "enabled": true,
+      "source_file": "sources-ai-ip.json"
+    }
+  ],
+  "user_config": {
+    "language": "bilingual",
+    "frequency": "daily",
+    "time": "08:00",
+    "timezone": "Asia/Shanghai",
+    "delivery": {
+      "telegram": {
+        "enabled": true,
+        "bot_token": "",
+        "chat_id": ""
+      },
+      "lark": {
+        "enabled": true,
+        "webhook_url": ""
+      },
+      "in_chat": {
+        "enabled": true
+      }
+    },
+    "content_preferences": {
+      "ai_relevance_threshold": "high",
+      "summary_length": "medium",
+      "include_links": true,
+      "max_items_per_category": 10
+    }
+  },
+  "feed_urls": {
+    "ai_product": "https://raw.githubusercontent.com/YOUR_USERNAME/andy-follows/main/feed-ai-product.json",
+    "ai_investment": "https://raw.githubusercontent.com/YOUR_USERNAME/andy-follows/main/feed-ai-investment.json",
+    "ai_ip": "https://raw.githubusercontent.com/YOUR_USERNAME/andy-follows/main/feed-ai-ip.json",
+    "state": "https://raw.githubusercontent.com/YOUR_USERNAME/andy-follows/main/state-feed.json"
+  }
+}

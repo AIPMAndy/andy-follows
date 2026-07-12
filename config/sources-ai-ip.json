@@ -1,0 +1,74 @@
+{
+  "category": "AI + IP",
+  "description": "AI intellectual property, open source, and legal developments",
+  "priority": 3,
+  "twitter_accounts": [
+    {
+      "username": "ylecun",
+      "name": "Yann LeCun",
+      "role": "Chief AI Scientist at Meta",
+      "focus": "Open source AI advocacy, AI safety debates"
+    },
+    {
+      "username": "emollick",
+      "name": "Ethan Mollick",
+      "role": "Professor at Wharton",
+      "focus": "AI policy, ethics, organizational impact"
+    },
+    {
+      "username": "fchollet",
+      "name": "François Chollet",
+      "role": "Creator of Keras, Google",
+      "focus": "AI philosophy, open source, AGI definition"
+    },
+    {
+      "username": "chrisalbon",
+      "name": "Chris Albon",
+      "role": "Director of ML at Wikimedia",
+      "focus": "Open AI models, ML accessibility"
+    },
+    {
+      "username": "elonmusk",
+      "name": "Elon Musk",
+      "role": "CEO of xAI, Tesla",
+      "focus": "AI safety, open source (Grok), AGI race",
+      "note": "Filter for AI-related content only"
+    }
+  ],
+  "blogs": [
+    {
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "focus": "Open source AI models and tools"
+    },
+    {
+      "name": "Stability AI Blog",
+      "url": "https://stability.ai/news",
+      "focus": "Open source generative AI"
+    },
+    {
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "focus": "Open source AI research (Llama, etc.)"
+    },
+    {
+      "name": "OpenAI Policy",
+      "url": "https://openai.com/blog/category/policy",
+      "focus": "AI policy and governance"
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Unsupervised Learning",
+      "youtube_channel": "@UnsupervisedLearningPodcast",
+      "focus": "AI policy, safety, and regulation"
+    }
+  ],
+  "legal_sources": [
+    {
+      "type": "tracking",
+      "description": "AI copyright cases (GitHub Copilot, Stable Diffusion lawsuits)",
+      "method": "Manual curation from legal tech news"
+    }
+  ]
+}
