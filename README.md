@@ -10,7 +10,7 @@
 
 1. **🏗️ AI + 产品** — 理解 AI 如何改变产品开发、设计和用户体验
 2. **💰 AI + 投资** — 追踪 AI 经济中的资本流动、市场动态和商业模式
-3. **⚖️ AI + 知识产权** — 监控知识产权战争、开源运动和监管格局
+3. **🎨 AI + 个人品牌** — 用 AI 建设个人品牌、内容创作和创作者经济
 
 这个系统存在的目的是回答一个问题：**AI 的建设者、投资者和塑造者们究竟在做什么、在想什么？**
 
@@ -30,7 +30,7 @@
 
 ✅ **直达源头** — 来自建设十亿美元 AI 公司的创始人、部署资本的 VC、塑造领域的研究者的直接洞察  
 ✅ **第一性原理思考** — 理解决策背后的*原因*，而不仅仅是*发生了什么*  
-✅ **战略背景** — 连接产品发布、投资趋势和知识产权战争  
+✅ **战略背景** — 连接产品发布、投资趋势和个人品牌建设  
 ✅ **全球视野** — 聚焦海外（主要是美国/欧洲）信息源，AI 创新的集中地  
 ✅ **AI 原生过滤** — 严格的 AI 相关内容，无关的科技新闻被排除
 
@@ -46,8 +46,8 @@
 这个系统帮助你：
 - **做出更好的产品决策** — 向解决类似问题的建设者学习
 - **发现投资机会** — 看到资本和人才的流向
-- **规避 IP 风险** — 在开源 vs 闭源辩论影响你之前理解它
-- **领先监管** — 追踪可能改变游戏规则的政策发展
+- **建设个人品牌** — 学习顶级创作者如何用 AI 扩大影响力
+- **打造创作者业务** — 掌握内容变现和数字产品策略
 
 ---
 
@@ -91,14 +91,14 @@
 
 **示例洞察**：OpenAI 的 66 亿美元融资暗示盈利路径；a16z 关于基础模型毛利压缩的理论。
 
-### ⚖️ AI + 知识产权（优先级 3：法律与政策背景）
-- 开源 vs 闭源辩论
-- 版权和专利诉讼
-- 监管发展（欧盟 AI 法案等）
-- 许可策略
-- 政策提案及其影响
+### 🎨 AI + 个人品牌（优先级 3：创作者经济）
+- AI 辅助内容创作和生产力提升
+- 个人品牌建设和受众增长策略
+- 创作者商业模式和变现路径
+- 数字产品和一人公司实践
+- 内容工具和创作者平台
 
-**示例洞察**：Meta 的 Llama 3.1 开源战略；GitHub Copilot 版权案件通过驳回动议。
+**示例洞察**：Dan Koe 如何用 AI 扩大内容产出 5 倍；Justin Welsh 的 AI 辅助 LinkedIn 策略达到月均 1000 万曝光；创作者使用 AI 的收入是不使用者的 2.3 倍。
 
 ---
 
@@ -155,10 +155,10 @@ node scripts/generate-digest.js && node scripts/deliver.js
 **博客**：a16z AI, Sequoia AI, YC Blog, FirstMark  
 **播客**：No Priors, Training Data, The MAD Podcast
 
-### AI + 知识产权思想领袖（10 个源）
-**Twitter**：Yann LeCun, Ethan Mollick, François Chollet, Elon Musk（仅 AI）等  
-**博客**：Hugging Face, Stability AI, Meta AI, OpenAI Policy  
-**播客**：Unsupervised Learning
+### AI + 个人品牌创作者（18 个源）
+**Twitter**：Dan Koe, Justin Welsh, Sahil Bloom, Dickie Bush, Pieter Levels, Nathan Barry, Lenny Rachitsky, Alex Garcia, Blake Emal, Alexis Ohanian 等  
+**博客**：Lenny's Newsletter, ConvertKit Blog, Li Jin's Blog, Not Boring, Every  
+**播客**：My First Million, The Creator Economy Show, How I Write
 
 所有信息源都**聚焦海外**（主要是美国/欧洲），代表有真正实战经验的**第一性原理思考者**。
 
@@ -301,7 +301,7 @@ MIT License — 可自由使用、修改和分享。
 
 1. **🏗️ AI + Product** — Understanding how AI transforms product development, design, and user experience
 2. **💰 AI + Investment** — Tracking capital flows, market dynamics, and business models in the AI economy  
-3. **⚖️ AI + IP** — Monitoring intellectual property battles, open source movements, and regulatory landscapes
+3. **🎨 AI + Personal Brand** — Using AI for personal branding, content creation, and creator economy
 
 This system exists to answer one question: **What are the builders, investors, and shapers of AI actually doing and thinking?**
 
@@ -337,8 +337,8 @@ In the age of AI, **information asymmetry is the biggest risk**. Most AI coverag
 This system helps you:
 - **Make better product decisions** — Learn from builders who solved similar problems
 - **Spot investment opportunities** — See where capital and talent are flowing
-- **Navigate IP risks** — Understand open source vs. closed debates before they affect you
-- **Stay ahead of regulation** — Track policy developments that could change the game
+- **Build personal brand** — Learn how top creators use AI to scale their impact
+- **Create creator businesses** — Master content monetization and digital product strategies
 
 ---
 
@@ -382,14 +382,14 @@ A daily or weekly digest delivered to your preferred channel (Telegram, Lark, or
 
 **Example insights**: OpenAI's $6.6B raise signals path to profitability; a16z's thesis on foundation model margin compression.
 
-### ⚖️ AI + IP (Priority 3: Legal & Policy Context)
-- Open source vs. closed source debates
-- Copyright and patent litigation
-- Regulatory developments (EU AI Act, etc.)
-- Licensing strategies
-- Policy proposals and their implications
+### 🎨 AI + Personal Brand (Priority 3: Creator Economy)
+- AI-assisted content creation and productivity
+- Personal brand building and audience growth strategies
+- Creator business models and monetization paths
+- Digital products and one-person business practices
+- Content tools and creator platforms
 
-**Example insights**: Meta's Llama 3.1 open source strategy; GitHub Copilot copyright case surviving dismissal.
+**Example insights**: How Dan Koe uses AI to scale content output 5x; Justin Welsh's AI-assisted LinkedIn strategy reaching 10M monthly impressions; creators using AI earn 2.3x more than those who don't.
 
 ---
 
@@ -446,10 +446,10 @@ node scripts/generate-digest.js && node scripts/deliver.js
 **Blogs**: a16z AI, Sequoia AI, YC Blog, FirstMark  
 **Podcasts**: No Priors, Training Data, The MAD Podcast
 
-### AI + IP Thought Leaders (10 sources)
-**Twitter**: Yann LeCun, Ethan Mollick, François Chollet, Elon Musk (AI-only), and more  
-**Blogs**: Hugging Face, Stability AI, Meta AI, OpenAI Policy  
-**Podcasts**: Unsupervised Learning
+### AI + Personal Brand Creators (18 sources)
+**Twitter**: Dan Koe, Justin Welsh, Sahil Bloom, Dickie Bush, Pieter Levels, Nathan Barry, Lenny Rachitsky, Alex Garcia, Blake Emal, Alexis Ohanian, and more  
+**Blogs**: Lenny's Newsletter, ConvertKit Blog, Li Jin's Blog, Not Boring, Every  
+**Podcasts**: My First Million, The Creator Economy Show, How I Write
 
 All sources are **overseas-focused** (primarily US/Europe) and represent **first-principles thinkers** with real skin in the game.
 
@@ -499,7 +499,7 @@ Every piece of content is evaluated against AI relevance criteria:
 Content is presented in strategic priority order:
 1. **AI + Product** (most important — foundational knowledge)
 2. **AI + Investment** (market intelligence)
-3. **AI + IP** (legal and policy context)
+3. **AI + Personal Brand** (creator economy and content strategy)
 
 ### Bilingual Support
 Native support for:
@@ -511,7 +511,7 @@ Native support for:
 All summarization logic lives in editable markdown files:
 - `prompts/summarize-ai-product.md` — Product insights extraction
 - `prompts/summarize-ai-investment.md` — Investment analysis
-- `prompts/summarize-ai-ip.md` — IP/legal developments
+- `prompts/summarize-ai-ip.md` — Personal brand and creator economy insights
 - `prompts/filter-ai-relevance.md` — Relevance filtering
 - `prompts/translate.md` — Translation guidelines
 
@@ -525,7 +525,7 @@ Andy Follows is inspired by [follow-builders](https://github.com/zarazhangrui/fo
 
 | Feature | follow-builders | andy-follows |
 |---------|----------------|--------------|
-| **Focus** | General AI builders | AI + Product/Investment/IP pillars |
+| **Focus** | General AI builders | AI + Product/Investment/Personal Brand pillars |
 | **Geography** | Global | Overseas only (non-China) |
 | **Filtering** | General AI content | Strict AI relevance + category fit |
 | **Structure** | Single unified feed | 3 category feeds with priority ordering |

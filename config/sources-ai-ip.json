@@ -1,74 +1,112 @@
 {
-  "category": "AI + IP",
-  "description": "AI intellectual property, open source, and legal developments",
+  "category": "AI + IP (Personal Brand)",
+  "description": "AI for personal brand building, content creation, and creator economy",
   "priority": 3,
   "twitter_accounts": [
     {
-      "username": "ylecun",
-      "name": "Yann LeCun",
-      "role": "Chief AI Scientist at Meta",
-      "focus": "Open source AI advocacy, AI safety debates"
+      "username": "thedankoe",
+      "name": "Dan Koe",
+      "role": "Creator, Digital Entrepreneur",
+      "focus": "Personal brand building, content creation, digital products, one-person business"
     },
     {
-      "username": "emollick",
-      "name": "Ethan Mollick",
-      "role": "Professor at Wharton",
-      "focus": "AI policy, ethics, organizational impact"
+      "username": "justinwelsh",
+      "name": "Justin Welsh",
+      "role": "Creator & Entrepreneur",
+      "focus": "Personal brand monetization, solopreneur strategies, LinkedIn growth"
     },
     {
-      "username": "fchollet",
-      "name": "François Chollet",
-      "role": "Creator of Keras, Google",
-      "focus": "AI philosophy, open source, AGI definition"
+      "username": "SahilBloom",
+      "name": "Sahil Bloom",
+      "role": "Content Creator & Investor",
+      "focus": "Content strategy, personal brand, writing frameworks"
     },
     {
-      "username": "chrisalbon",
-      "name": "Chris Albon",
-      "role": "Director of ML at Wikimedia",
-      "focus": "Open AI models, ML accessibility"
+      "username": "dickiebush",
+      "name": "Dickie Bush",
+      "role": "Co-founder of Ship 30 for 30",
+      "focus": "Writing online, digital writing, content systems"
     },
     {
-      "username": "elonmusk",
-      "name": "Elon Musk",
-      "role": "CEO of xAI, Tesla",
-      "focus": "AI safety, open source (Grok), AGI race",
-      "note": "Filter for AI-related content only"
+      "username": "alexgarcia_atx",
+      "name": "Alex Garcia",
+      "role": "AI Content Creator",
+      "focus": "AI tools for creators, content automation, productivity"
+    },
+    {
+      "username": "heyblake",
+      "name": "Blake Emal",
+      "role": "AI Creator & Educator",
+      "focus": "AI for content creation, creator tools, automation"
+    },
+    {
+      "username": "levelsio",
+      "name": "Pieter Levels",
+      "role": "Indie Maker",
+      "focus": "AI products, indie hacking, digital nomad lifestyle, building in public"
+    },
+    {
+      "username": "alexisohanian",
+      "name": "Alexis Ohanian",
+      "role": "Founder of Seven Seven Six",
+      "focus": "Creator economy investments, personal brand as moat"
+    },
+    {
+      "username": "lennysan",
+      "name": "Lenny Rachitsky",
+      "role": "Creator & PM Expert",
+      "focus": "Newsletter business, creator monetization, content strategy"
+    },
+    {
+      "username": "nathanbarry",
+      "name": "Nathan Barry",
+      "role": "Founder of ConvertKit",
+      "focus": "Creator economy, email marketing, audience building"
     }
   ],
   "blogs": [
     {
-      "name": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog",
-      "focus": "Open source AI models and tools"
+      "name": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/",
+      "focus": "Creator business models and strategies"
     },
     {
-      "name": "Stability AI Blog",
-      "url": "https://stability.ai/news",
-      "focus": "Open source generative AI"
+      "name": "ConvertKit Blog",
+      "url": "https://convertkit.com/blog",
+      "focus": "Creator economy insights and tools"
     },
     {
-      "name": "Meta AI Blog",
-      "url": "https://ai.meta.com/blog/",
-      "focus": "Open source AI research (Llama, etc.)"
+      "name": "Li Jin's Blog",
+      "url": "https://li.substack.com/",
+      "focus": "Creator economy, passion economy, future of work"
     },
     {
-      "name": "OpenAI Policy",
-      "url": "https://openai.com/blog/category/policy",
-      "focus": "AI policy and governance"
+      "name": "Not Boring by Packy McCormick",
+      "url": "https://www.notboring.co/",
+      "focus": "Creator businesses, tech trends, storytelling"
+    },
+    {
+      "name": "Every",
+      "url": "https://every.to/",
+      "focus": "Creator-focused business writing and AI tools"
     }
   ],
   "podcasts": [
     {
-      "name": "Unsupervised Learning",
-      "youtube_channel": "@UnsupervisedLearningPodcast",
-      "focus": "AI policy, safety, and regulation"
+      "name": "My First Million",
+      "youtube_channel": "@MyFirstMillionPod",
+      "focus": "Business ideas, creator stories, digital products"
+    },
+    {
+      "name": "The Creator Economy Show",
+      "youtube_channel": "@creatoreconomyshow",
+      "focus": "Creator monetization strategies and platforms"
+    },
+    {
+      "name": "How I Write",
+      "spotify_url": "https://open.spotify.com/show/...",
+      "focus": "Writing process, content creation, creator workflows"
     }
   ],
-  "legal_sources": [
-    {
-      "type": "tracking",
-      "description": "AI copyright cases (GitHub Copilot, Stable Diffusion lawsuits)",
-      "method": "Manual curation from legal tech news"
-    }
-  ]
+  "note": "Focus on creators using AI to build personal brands, automate content, and scale their impact. Filter for AI-relevant content only."
 }

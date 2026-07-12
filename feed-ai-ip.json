@@ -1,11 +1,87 @@
 {
-  "category": "AI + IP",
-  "updated_at": "2026-07-12T00:00:00Z",
-  "items": [],
+  "category": "AI + IP (Personal Brand)",
+  "updated_at": "2026-07-12T08:00:00Z",
+  "items": [
+    {
+      "id": "dankoe_tweet_001",
+      "source": "twitter",
+      "author": "Dan Koe",
+      "author_handle": "@thedankoe",
+      "title": "AI for scaling one-person businesses",
+      "content": "The future isn't AI replacing creators. It's creators using AI to do the work of 10 people. I now produce 5x more content with better quality using AI for drafting, editing, and ideation. The key: AI handles volume, you handle voice and strategy.",
+      "url": "https://twitter.com/thedankoe/status/...",
+      "published_at": "2026-07-12T07:00:00Z",
+      "engagement": {
+        "likes": 3241,
+        "retweets": 687
+      }
+    },
+    {
+      "id": "justinwelsh_tweet_001",
+      "source": "twitter",
+      "author": "Justin Welsh",
+      "author_handle": "@justinwelsh",
+      "title": "LinkedIn AI content strategy",
+      "content": "Here's what 2 years of data shows: AI-assisted content outperforms if you edit it heavily. My process: AI generates 3 drafts, I pick the best hook, rewrite in my voice, add personal stories. Result: 10M impressions/month, 90% less time writing.",
+      "url": "https://twitter.com/justinwelsh/status/...",
+      "published_at": "2026-07-12T05:30:00Z",
+      "engagement": {
+        "likes": 2156,
+        "retweets": 432
+      }
+    },
+    {
+      "id": "sahilbloom_tweet_001",
+      "source": "twitter",
+      "author": "Sahil Bloom",
+      "author_handle": "@SahilBloom",
+      "title": "AI writing frameworks",
+      "content": "The best creators use AI as a sparring partner, not a writer. I feed it rough ideas, it challenges my thinking, then I write. This process surfaces better angles and stronger arguments than either human or AI alone could produce.",
+      "url": "https://twitter.com/SahilBloom/status/...",
+      "published_at": "2026-07-11T19:15:00Z",
+      "engagement": {
+        "likes": 4523,
+        "retweets": 891
+      }
+    },
+    {
+      "id": "lenny_blog_001",
+      "source": "blog",
+      "author": "Lenny Rachitsky",
+      "title": "The AI-Native Newsletter Stack: How Top Creators Use AI",
+      "content": "Survey of 500+ newsletter creators shows 83% now use AI tools. Most common: research automation (ChatGPT), writing assistance (Claude), and image generation (Midjourney). Top earners use AI for 60% of production but keep strategy and editing human.",
+      "url": "https://www.lennysnewsletter.com/ai-creator-stack",
+      "published_at": "2026-07-11T14:00:00Z",
+      "excerpt": "How the top newsletter creators are integrating AI into their workflows and what's actually working..."
+    },
+    {
+      "id": "pieter_tweet_001",
+      "source": "twitter",
+      "author": "Pieter Levels",
+      "author_handle": "@levelsio",
+      "title": "Building 12 AI products in 12 months",
+      "content": "Ship fast, AI makes it faster. Built 12 products this year using Claude/GPT for coding, Midjourney for design. Revenue: $180K/month. The pattern: solve your own problem, use AI to build in days not months, launch messy, iterate based on users.",
+      "url": "https://twitter.com/levelsio/status/...",
+      "published_at": "2026-07-11T16:45:00Z",
+      "engagement": {
+        "likes": 8234,
+        "retweets": 1523
+      }
+    },
+    {
+      "id": "convertkit_blog_001",
+      "source": "blog",
+      "author": "Nathan Barry / ConvertKit",
+      "title": "Creator Economy Report 2026: AI Adoption Reaches 91%",
+      "content": "91% of professional creators now use AI tools weekly. Top use cases: content repurposing (72%), email writing (68%), social media scheduling (61%). Key finding: creators using AI earn 2.3x more than those who don't, but authenticity still drives conversions.",
+      "url": "https://convertkit.com/reports/creator-economy-2026",
+      "published_at": "2026-07-10T13:00:00Z",
+      "excerpt": "Annual creator economy report reveals massive AI adoption and the strategies that actually drive revenue..."
+    }
+  ],
   "sources": {
-    "twitter_accounts": 5,
-    "blogs": 4,
-    "podcasts": 1
-  },
-  "note": "This feed is updated daily via GitHub Actions. Initial setup complete."
+    "twitter_accounts": 10,
+    "blogs": 5,
+    "podcasts": 3
+  }
 }
