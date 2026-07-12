@@ -1,10 +1,301 @@
 # Andy Follows
 
-**English** | [中文](#中文版)
+[English](#english-version) | **中文**
 
 ---
 
-## 🏠 Serving Andy's Freedom House (安迪自由之屋)
+## 🏠 服务于 Andy 自由之屋
+
+**Andy Follows** 是一个专为 **Andy 自由之屋**设计的 AI 情报系统——一个建立在三大支柱之上的战略框架，代表了 AI 与关键领域的未来交汇：
+
+1. **🏗️ AI + 产品** — 理解 AI 如何改变产品开发、设计和用户体验
+2. **💰 AI + 投资** — 追踪 AI 经济中的资本流动、市场动态和商业模式
+3. **⚖️ AI + 知识产权** — 监控知识产权战争、开源运动和监管格局
+
+这个系统存在的目的是回答一个问题：**AI 的建设者、投资者和塑造者们究竟在做什么、在想什么？**
+
+---
+
+## 💡 价值主张
+
+### 为什么重要
+
+在 AI 时代，**信息不对称是最大的风险**。大多数 AI 报道是：
+- 🚫 不懂技术的记者的二手评论
+- 🚫 追逐流量的网红的炒作营销
+- 🚫 错过战略意义的肤浅总结
+- 🚫 淹没信号的噪音
+
+**Andy Follows** 通过以下方式切入本质：
+
+✅ **直达源头** — 来自建设十亿美元 AI 公司的创始人、部署资本的 VC、塑造领域的研究者的直接洞察  
+✅ **第一性原理思考** — 理解决策背后的*原因*，而不仅仅是*发生了什么*  
+✅ **战略背景** — 连接产品发布、投资趋势和知识产权战争  
+✅ **全球视野** — 聚焦海外（主要是美国/欧洲）信息源，AI 创新的集中地  
+✅ **AI 原生过滤** — 严格的 AI 相关内容，无关的科技新闻被排除
+
+### 你将获得什么
+
+**时间**：每天 30-60 分钟精选洞察 vs. 数小时刷 Twitter/博客  
+**清晰度**：战略信号与营销噪音分离  
+**优势**：在第一性原理洞察成为主流之前获取  
+**对齐**：按你的战略框架优先排序（产品 > 投资 > IP）
+
+### 实际影响
+
+这个系统帮助你：
+- **做出更好的产品决策** — 向解决类似问题的建设者学习
+- **发现投资机会** — 看到资本和人才的流向
+- **规避 IP 风险** — 在开源 vs 闭源辩论影响你之前理解它
+- **领先监管** — 追踪可能改变游戏规则的政策发展
+
+---
+
+## 🎯 理念：关注建设者，而非影响者
+
+**Andy Follows 原则**：
+
+> 关注那些**构建**产品、**部署**资本、**塑造**政策的人——而非仅仅**谈论**它的人。
+
+这意味着：
+- ✅ Andrej Karpathy（构建 AI 系统）→ **纳入**
+- ❌ 泛泛的"AI 网红"（转发新闻）→ **排除**
+- ✅ Marc Andreessen（部署数十亿美元于 AI）→ **纳入**
+- ❌ "AI 思想领袖"（没有实战）→ **排除**
+
+**海外聚焦**：AI 创新集中在美国和欧洲。中国信息源被有意排除，以保持对全球 AI 发展最相关的市场和生态系统的关注。
+
+**AI 优先**：严格的相关性过滤确保你只看到 AI 相关内容。马斯克的 SpaceX 发射？过滤掉。他的 xAI 公告？保留。
+
+---
+
+## 📊 你将获得什么
+
+每日或每周摘要，推送到你的首选渠道（Telegram、飞书或对话内显示）：
+
+### 🏗️ AI + 产品（优先级 1：基础知识）
+- AI 公司的产品发布和更新
+- 实现挑战的技术深度解析
+- AI 界面的 UX/UI 模式
+- 开发者体验洞察
+- 产品策略和定位
+
+**示例洞察**：Anthropic 如何优化 Claude 的上下文窗口以降低 80% 延迟；Vercel 的 v0 如何通过 AI 优先设计工具达到 100 万开发者。
+
+### 💰 AI + 投资（优先级 2：市场情报）
+- 融资轮次和估值
+- VC 投资理论和市场分析
+- 商业模式创新
+- 并购活动和战略动向
+- 单位经济效益和盈利路径
+
+**示例洞察**：OpenAI 的 66 亿美元融资暗示盈利路径；a16z 关于基础模型毛利压缩的理论。
+
+### ⚖️ AI + 知识产权（优先级 3：法律与政策背景）
+- 开源 vs 闭源辩论
+- 版权和专利诉讼
+- 监管发展（欧盟 AI 法案等）
+- 许可策略
+- 政策提案及其影响
+
+**示例洞察**：Meta 的 Llama 3.1 开源战略；GitHub Copilot 版权案件通过驳回动议。
+
+---
+
+## 🚀 快速开始
+
+### Claude Code 用户
+
+1. **克隆仓库**：
+```bash
+git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-follows
+cd ~/.claude/skills/andy-follows/scripts && npm install
+```
+
+2. **通过对话设置**：
+```
+说："设置 Andy Follows" 或调用 /andy-follows
+```
+
+3. **配置推送**（agent 会引导你）：
+   - Telegram bot（可选）
+   - 飞书 webhook（可选）
+   - 语言偏好（英文、中文或双语）
+   - 频率（每日或每周）
+
+4. **立即收到第一份摘要**
+
+### 手动设置
+
+```bash
+# 克隆
+git clone https://github.com/AIPMAndy/andy-follows.git
+cd andy-follows/scripts && npm install
+
+# 配置
+mkdir -p ~/.andy-follows
+cp .env.example ~/.andy-follows/.env
+# 编辑 ~/.andy-follows/.env 添加你的凭证
+
+# 运行
+node scripts/generate-digest.js && node scripts/deliver.js
+```
+
+---
+
+## 📡 信息源（45+ 总计）
+
+### AI + 产品建设者（19 个源）
+**Twitter**：Andrej Karpathy, Swyx, Josh Woodward, Boris Cherny, Guillermo Rauch, Amjad Masad, Alex Albert 等  
+**博客**：Anthropic Engineering, OpenAI Blog, Google AI Blog, Vercel AI  
+**播客**：Latent Space
+
+### AI + 投资领袖（16 个源）
+**Twitter**：Marc Andreessen, Garry Tan, Matt Turck, Sam Altman, Aaron Levie 等  
+**博客**：a16z AI, Sequoia AI, YC Blog, FirstMark  
+**播客**：No Priors, Training Data, The MAD Podcast
+
+### AI + 知识产权思想领袖（10 个源）
+**Twitter**：Yann LeCun, Ethan Mollick, François Chollet, Elon Musk（仅 AI）等  
+**博客**：Hugging Face, Stability AI, Meta AI, OpenAI Policy  
+**播客**：Unsupervised Learning
+
+所有信息源都**聚焦海外**（主要是美国/欧洲），代表有真正实战经验的**第一性原理思考者**。
+
+---
+
+## 🔧 工作原理
+
+### 架构
+
+```
+中心化 Feed (GitHub) → 你的 Agent (Claude) → AI 处理 → 多渠道推送
+```
+
+1. **中心化 feed 每日更新**（通过 GitHub Actions）
+   - 从 Twitter API、RSS feeds、YouTube 转录抓取
+   - 为每个类别生成 JSON feeds
+   - 你不需要任何 API keys
+
+2. **你的 agent 本地处理**
+   - 抓取 feeds（一次 HTTP 请求）
+   - 过滤 AI 相关性（使用专用 prompt）
+   - 按类别总结（使用专门的 prompts）
+   - 生成双语输出（如果配置）
+
+3. **推送到你的渠道**
+   - Telegram bot
+   - 飞书 webhook
+   - Claude 对话内显示
+
+查看 [examples/sample-digest.md](examples/sample-digest.md) 了解示例输出。
+
+---
+
+## ✨ 核心特性
+
+### 严格的 AI 相关性过滤
+每条内容都根据 AI 相关性标准评估：
+- ✅ 讨论 AI 模型、产品、公司或研究
+- ✅ 关于 AI 投资、融资或市场动态
+- ✅ 涵盖 AI 政策、版权或监管
+- ❌ 没有 AI 组件的泛科技新闻
+- ❌ 与 AI 无关的个人内容
+
+**示例**：Elon Musk 发推关于 SpaceX 发射 → 过滤掉。Elon Musk 发推关于 xAI 的 Grok 模型 → 保留。
+
+### 基于优先级的排序
+内容按战略优先级顺序呈现：
+1. **AI + 产品**（最重要 — 基础知识）
+2. **AI + 投资**（市场情报）
+3. **AI + IP**（法律和政策背景）
+
+### 双语支持
+原生支持：
+- 仅英文
+- 仅中文
+- **双语（默认）** — 英文洞察后跟中文翻译，保留专业术语
+
+### 可自定义 Prompts
+所有总结逻辑都在可编辑的 markdown 文件中：
+- `prompts/summarize-ai-product.md` — 产品洞察提取
+- `prompts/summarize-ai-investment.md` — 投资分析
+- `prompts/summarize-ai-ip.md` — IP/法律发展
+- `prompts/filter-ai-relevance.md` — 相关性过滤
+- `prompts/translate.md` — 翻译指南
+
+告诉 Claude "让摘要更技术化"或直接编辑文件。
+
+---
+
+## 🆚 与 follow-builders 的比较
+
+Andy Follows 受 Zara Zhang 的 [follow-builders](https://github.com/zarazhangrui/follow-builders) 启发，但专为 Andy 自由之屋框架定制：
+
+| 特性 | follow-builders | andy-follows |
+|---------|----------------|--------------|
+| **焦点** | 通用 AI 建设者 | AI + 产品/投资/IP 三大支柱 |
+| **地域** | 全球 | 仅海外（非中国） |
+| **过滤** | 通用 AI 内容 | 严格 AI 相关性 + 类别契合 |
+| **结构** | 单一统一 feed | 3 个类别 feed + 优先级排序 |
+| **信息源** | 26 Twitter + 6 播客 + 2 博客 | 28 Twitter + 5 播客 + 12 博客 |
+| **理念** | 关注建设者 | 关注建设者 + 第一性原理聚焦 |
+
+**致谢**：中心化 feed 架构和对话式设置方法改编自优秀的 follow-builders 项目。
+
+---
+
+## 🔐 隐私与安全
+
+- ✅ **无 API keys 外发** — 所有内容由 GitHub Actions 集中抓取
+- ✅ **本地凭证存储** — Telegram/飞书 tokens 存储在 `~/.andy-follows/.env`
+- ✅ **仅公开内容** — 只读取公开可用的帖子、博客、播客
+- ✅ **数据保持本地** — 配置和历史永不离开你的机器
+
+---
+
+## 🛠️ 自定义
+
+### 对话式（推荐）
+告诉 Claude 你想要什么：
+- "更关注 AI 产品策略"
+- "我想要更深的技术细节"
+- "让摘要更简洁"
+- "切换到每周摘要"
+
+### 直接编辑（高级用户）
+编辑 `prompts/` 目录中的文件。更改在下次摘要时立即生效。
+
+---
+
+## 🤝 贡献
+
+欢迎贡献！特别是：
+- **高质量海外信息源**（必须是建设者/投资者/塑造者，非网红）
+- **Prompt 改进**以获得更好的总结
+- **Bug 修复和增强**
+
+提交 issue 或 PR。
+
+---
+
+## 📄 许可证
+
+MIT License — 可自由使用、修改和分享。
+
+---
+
+## 🙏 致谢
+
+本项目受 Zara Zhang 的 [follow-builders](https://github.com/zarazhangrui/follow-builders) 启发并基于其构建。中心化 feed 架构和对话式设置均改编自该优秀项目。
+
+特别感谢 AI 社区在公开场合构建并分享洞察，使这样的项目成为可能。
+
+---
+
+## English Version
+
+### 🏠 Serving Andy's Freedom House
 
 **Andy Follows** is an AI-powered intelligence system designed specifically for **Andy's Freedom House** — a strategic framework built on three pillars that represent the future intersection of AI with critical domains:
 
@@ -293,165 +584,5 @@ Special thanks to the AI community for building in public and sharing insights t
 
 ---
 
-## 中文版
-
-### 🏠 服务于安迪自由之屋
-
-**Andy Follows** 是一个专为**安迪自由之屋**设计的 AI 情报系统——一个建立在三大支柱之上的战略框架，代表了 AI 与关键领域的未来交汇：
-
-1. **🏗️ AI + 产品** — 理解 AI 如何改变产品开发、设计和用户体验
-2. **💰 AI + 投资** — 追踪 AI 经济中的资本流动、市场动态和商业模式
-3. **⚖️ AI + 知识产权** — 监控知识产权战争、开源运动和监管格局
-
-这个系统存在的目的是回答一个问题：**AI 的建设者、投资者和塑造者们究竟在做什么、在想什么？**
-
----
-
-### 💡 价值主张
-
-#### 为什么重要
-
-在 AI 时代，**信息不对称是最大的风险**。大多数 AI 报道是：
-- 🚫 不懂技术的记者的二手评论
-- 🚫 追逐流量的网红的炒作营销
-- 🚫 错过战略意义的肤浅总结
-- 🚫 淹没信号的噪音
-
-**Andy Follows** 通过以下方式切入本质：
-
-✅ **直达源头** — 来自建设十亿美元 AI 公司的创始人、部署资本的 VC、塑造领域的研究者的直接洞察  
-✅ **第一性原理思考** — 理解决策背后的*原因*，而不仅仅是*发生了什么*  
-✅ **战略背景** — 连接产品发布、投资趋势和知识产权战争  
-✅ **全球视野** — 聚焦海外（主要是美国/欧洲）信息源，AI 创新的集中地  
-✅ **AI 原生过滤** — 严格的 AI 相关内容，无关的科技新闻被排除
-
-#### 你将获得什么
-
-**时间**：每天 30-60 分钟精选洞察 vs. 数小时刷 Twitter/博客  
-**清晰度**：战略信号与营销噪音分离  
-**优势**：在第一性原理洞察成为主流之前获取  
-**对齐**：按你的战略框架优先排序（产品 > 投资 > IP）
-
-#### 实际影响
-
-这个系统帮助你：
-- **做出更好的产品决策** — 向解决类似问题的建设者学习
-- **发现投资机会** — 看到资本和人才的流向
-- **规避 IP 风险** — 在开源 vs 闭源辩论影响你之前理解它
-- **领先监管** — 追踪可能改变游戏规则的政策发展
-
----
-
-### 🎯 理念：关注建设者，而非影响者
-
-**Andy Follows 原则**：
-
-> 关注那些**构建**产品、**部署**资本、**塑造**政策的人——而非仅仅**谈论**它的人。
-
-这意味着：
-- ✅ Andrej Karpathy（构建 AI 系统）→ **纳入**
-- ❌ 泛泛的"AI 网红"（转发新闻）→ **排除**
-- ✅ Marc Andreessen（部署数十亿美元于 AI）→ **纳入**
-- ❌ "AI 思想领袖"（没有实战）→ **排除**
-
-**海外聚焦**：AI 创新集中在美国和欧洲。中国信息源被有意排除，以保持对全球 AI 发展最相关的市场和生态系统的关注。
-
-**AI 优先**：严格的相关性过滤确保你只看到 AI 相关内容。马斯克的 SpaceX 发射？过滤掉。他的 xAI 公告？保留。
-
----
-
-### 📊 你将获得什么
-
-每日或每周摘要，推送到你的首选渠道（Telegram、飞书或对话内显示）：
-
-#### 🏗️ AI + 产品（优先级 1：基础知识）
-- AI 公司的产品发布和更新
-- 实现挑战的技术深度解析
-- AI 界面的 UX/UI 模式
-- 开发者体验洞察
-- 产品策略和定位
-
-**示例洞察**：Anthropic 如何优化 Claude 的上下文窗口以降低 80% 延迟；Vercel 的 v0 如何通过 AI 优先设计工具达到 100 万开发者。
-
-#### 💰 AI + 投资（优先级 2：市场情报）
-- 融资轮次和估值
-- VC 投资理论和市场分析
-- 商业模式创新
-- 并购活动和战略动向
-- 单位经济效益和盈利路径
-
-**示例洞察**：OpenAI 的 66 亿美元融资暗示盈利路径；a16z 关于基础模型毛利压缩的理论。
-
-#### ⚖️ AI + 知识产权（优先级 3：法律与政策背景）
-- 开源 vs 闭源辩论
-- 版权和专利诉讼
-- 监管发展（欧盟 AI 法案等）
-- 许可策略
-- 政策提案及其影响
-
-**示例洞察**：Meta 的 Llama 3.1 开源战略；GitHub Copilot 版权案件通过驳回动议。
-
----
-
-### 🚀 快速开始
-
-#### Claude Code 用户
-
-1. **克隆仓库**：
-```bash
-git clone https://github.com/andyzheng547/andy-follows.git ~/.claude/skills/andy-follows
-cd ~/.claude/skills/andy-follows/scripts && npm install
-```
-
-2. **通过对话设置**：
-```
-说："设置 Andy Follows" 或调用 /andy-follows
-```
-
-3. **配置推送**（agent 会引导你）：
-   - Telegram bot（可选）
-   - 飞书 webhook（可选）
-   - 语言偏好（英文、中文或双语）
-   - 频率（每日或每周）
-
-4. **立即收到第一份摘要**
-
----
-
-### 📡 信息源（45+ 总计）
-
-#### AI + 产品建设者（19 个源）
-**Twitter**：Andrej Karpathy, Swyx, Josh Woodward, Boris Cherny, Guillermo Rauch, Amjad Masad, Alex Albert 等  
-**博客**：Anthropic Engineering, OpenAI Blog, Google AI Blog, Vercel AI  
-**播客**：Latent Space
-
-#### AI + 投资领袖（16 个源）
-**Twitter**：Marc Andreessen, Garry Tan, Matt Turck, Sam Altman, Aaron Levie 等  
-**博客**：a16z AI, Sequoia AI, YC Blog, FirstMark  
-**播客**：No Priors, Training Data, The MAD Podcast
-
-#### AI + 知识产权思想领袖（10 个源）
-**Twitter**：Yann LeCun, Ethan Mollick, François Chollet, Elon Musk（仅 AI）等  
-**博客**：Hugging Face, Stability AI, Meta AI, OpenAI Policy  
-**播客**：Unsupervised Learning
-
-所有信息源都**聚焦海外**（主要是美国/欧洲），代表有真正实战经验的**第一性原理思考者**。
-
----
-
-### 📄 许可证
-
-MIT License — 可自由使用、修改和分享。
-
----
-
-### 🙏 致谢
-
-本项目受 Zara Zhang 的 [follow-builders](https://github.com/zarazhangrui/follow-builders) 启发并基于其构建。中心化 feed 架构和对话式设置均改编自该优秀项目。
-
-特别感谢 AI 社区在公开场合构建并分享洞察，使这样的项目成为可能。
-
----
-
 **Generated by Andy Follows — Follow builders, not influencers**  
-**为安迪自由之屋服务 — 关注建设者，而非影响者**
+**为 Andy 自由之屋服务 — 关注建设者，而非影响者**
