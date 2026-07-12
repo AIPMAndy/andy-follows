@@ -108,7 +108,7 @@ A daily or weekly digest delivered to your preferred channel (Telegram, Lark, or
 
 1. **Clone this repository**:
 ```bash
-git clone https://github.com/andyzheng547/andy-follows.git ~/.claude/skills/andy-follows
+git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-follows
 cd ~/.claude/skills/andy-follows/scripts && npm install
 ```
 
@@ -129,7 +129,7 @@ Say: "set up Andy Follows" or invoke /andy-follows
 
 ```bash
 # Clone
-git clone https://github.com/andyzheng547/andy-follows.git
+git clone https://github.com/AIPMAndy/andy-follows.git
 cd andy-follows/scripts && npm install
 
 # Configure
