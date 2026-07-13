@@ -1,54 +1,23 @@
 {
   "category": "AI + Investment",
-  "updated_at": "2026-07-12T08:00:00Z",
+  "updated_at": "2026-07-13T10:58:49.908Z",
   "items": [
     {
-      "id": "marc_tweet_001",
-      "source": "twitter",
-      "author": "Marc Andreessen",
-      "author_handle": "@pmarca",
-      "title": "On AI infrastructure investment thesis",
-      "content": "The next wave of AI value creation is in the infrastructure layer: better training systems, inference optimization, and model serving at scale. We're seeing 10x efficiency gains year-over-year. This is where the durable moats are being built.",
-      "url": "https://twitter.com/pmarca/status/...",
-      "published_at": "2026-07-12T07:15:00Z",
-      "engagement": {
-        "likes": 4532,
-        "retweets": 891
+      "id": "example-1",
+      "type": "tweet",
+      "author": {
+        "username": "example",
+        "name": "Example Person",
+        "role": "Example Role"
+      },
+      "content": "Example content here",
+      "url": "https://twitter.com/example/status/123",
+      "published_at": "2026-07-13T10:58:49.908Z",
+      "metadata": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
       }
-    },
-    {
-      "id": "a16z_blog_001",
-      "source": "blog",
-      "author": "a16z",
-      "title": "The AI Agent Economy: Why We Invested $50M in Agentic Platforms",
-      "content": "AI agents that can act autonomously represent the next frontier. We're seeing early signs of an 'agent economy' where AI systems will transact with each other. Our thesis: the platforms enabling agent-to-agent interactions will capture massive value.",
-      "url": "https://a16z.com/ai-agent-economy",
-      "published_at": "2026-07-11T15:00:00Z",
-      "excerpt": "Why we believe AI agents represent a $1T+ opportunity and our investment in platforms enabling autonomous AI-to-AI transactions..."
-    },
-    {
-      "id": "garry_tweet_001",
-      "source": "twitter",
-      "author": "Garry Tan",
-      "author_handle": "@garrytan",
-      "title": "YC W24 AI batch insights",
-      "content": "40% of our current batch is AI-focused. Most interesting trend: vertical-specific AI tools (legal AI, medical AI) are seeing 10x faster adoption than horizontal tools. Domain expertise + AI = unfair advantage.",
-      "url": "https://twitter.com/garrytan/status/...",
-      "published_at": "2026-07-12T04:30:00Z",
-      "engagement": {
-        "likes": 2156,
-        "retweets": 412
-      }
-    },
-    {
-      "id": "sequoia_blog_001",
-      "source": "blog",
-      "author": "Sequoia Capital",
-      "title": "Foundation Model Margins: The Unit Economics Reality",
-      "content": "After analyzing 50+ AI companies, a pattern emerges: gross margins are stabilizing at 60-70% as inference costs drop. The winners will be those who build defensible distribution and create switching costs beyond the model itself.",
-      "url": "https://sequoiacap.com/article/foundation-model-margins",
-      "published_at": "2026-07-11T13:00:00Z",
-      "excerpt": "Deep dive into the unit economics of AI companies and why distribution beats technology in the long run..."
     }
   ],
   "sources": {

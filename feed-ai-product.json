@@ -1,67 +1,22 @@
 {
   "category": "AI + Product",
-  "updated_at": "2026-07-12T08:00:00Z",
+  "updated_at": "2026-07-13T10:58:49.908Z",
   "items": [
     {
-      "id": "karpathy_tweet_001",
-      "source": "twitter",
-      "author": "Andrej Karpathy",
-      "author_handle": "@karpathy",
-      "title": "On training efficiency improvements",
-      "content": "We've achieved a 3x speedup in GPT training by optimizing the attention mechanism's memory layout. Key insight: cache-friendly tensor layouts matter more than theoretical FLOPs at scale. Details in our tech blog soon.",
-      "url": "https://twitter.com/karpathy/status/...",
-      "published_at": "2026-07-12T06:30:00Z",
-      "engagement": {
-        "likes": 2847,
-        "retweets": 412
-      }
-    },
-    {
-      "id": "anthropic_blog_001",
-      "source": "blog",
-      "author": "Anthropic Engineering",
-      "title": "Constitutional AI: Scaling Alignment with Human Feedback",
-      "content": "Introducing our new approach to AI alignment that combines supervised learning with a constitution defining AI behavior principles. This allows us to train helpful, harmless, and honest AI assistants at scale without requiring human feedback for every decision.",
-      "url": "https://www.anthropic.com/blog/constitutional-ai",
-      "published_at": "2026-07-11T14:00:00Z",
-      "excerpt": "We present Constitutional AI (CAI), a method for training AI systems to be helpful, harmless, and honest using a set of principles rather than extensive human oversight..."
-    },
-    {
-      "id": "swyx_tweet_001",
-      "source": "twitter",
-      "author": "swyx",
-      "author_handle": "@swyx",
-      "title": "AI-first product design patterns",
-      "content": "After shipping 5 AI products this year, I've noticed a pattern: the best AI UX doesn't try to hide the AI. Show confidence scores, allow editing, make the model transparent. Users trust what they understand.",
-      "url": "https://twitter.com/swyx/status/...",
-      "published_at": "2026-07-12T05:15:00Z",
-      "engagement": {
-        "likes": 1523,
-        "retweets": 287
-      }
-    },
-    {
-      "id": "vercel_blog_001",
-      "source": "blog",
-      "author": "Vercel",
-      "title": "v0.dev hits 1M developers: Lessons in AI-powered tooling",
-      "content": "Six months after launch, v0 has reached 1 million developers using AI to generate production-ready React components. Key learnings: iteration speed matters more than first-try perfection, and developers want control over the final output.",
-      "url": "https://vercel.com/blog/v0-one-million-developers",
-      "published_at": "2026-07-11T16:30:00Z",
-      "excerpt": "v0.dev has crossed 1 million developers, with over 10 million components generated. Here's what we learned building an AI-first developer tool..."
-    },
-    {
-      "id": "josh_tweet_001",
-      "source": "twitter",
-      "author": "Josh Woodward",
-      "author_handle": "@joshwoodward",
-      "title": "Cursor IDE adoption metrics",
-      "content": "Cursor just hit 500k weekly active developers. The killer feature isn't the autocomplete - it's the ability to chat with your entire codebase. Context-aware AI is the unlock for developer tools.",
-      "url": "https://twitter.com/joshwoodward/status/...",
-      "published_at": "2026-07-11T19:45:00Z",
-      "engagement": {
-        "likes": 3241,
-        "retweets": 523
+      "id": "example-1",
+      "type": "tweet",
+      "author": {
+        "username": "example",
+        "name": "Example Person",
+        "role": "Example Role"
+      },
+      "content": "Example content here",
+      "url": "https://twitter.com/example/status/123",
+      "published_at": "2026-07-13T10:58:49.908Z",
+      "metadata": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0
       }
     }
   ],
