@@ -104,6 +104,14 @@
 
 ## 🚀 快速开始
 
+### 前置要求
+
+**必需**：
+- Claude Code 或类似 AI agent 环境
+- **AnySearch MCP 服务器**（用于数据获取）
+  - 安装和配置说明：参考 AnySearch 官方文档
+  - 或使用其他搜索/数据获取工具
+
 ### Claude Code 用户
 
 1. **克隆仓库**：
@@ -112,18 +120,26 @@ git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-fol
 cd ~/.claude/skills/andy-follows/scripts && npm install
 ```
 
-2. **通过对话设置**：
+2. **配置 AnySearch**：
+   - 确保 AnySearch MCP 服务器已安装并运行
+   - 测试搜索功能是否正常
+
+3. **通过对话设置**：
 ```
 说："设置 Andy Follows" 或调用 /andy-follows
 ```
 
-3. **配置推送**（agent 会引导你）：
+4. **配置推送**（agent 会引导你）：
    - Telegram bot（可选）
    - 飞书 webhook（可选）
    - 语言偏好（英文、中文或双语）
-   - 频率（每日或每周）
+   - 触发方式（手动或定时）
 
-4. **立即收到第一份摘要**
+5. **首次运行**：
+```
+说："获取今天的 AI 资讯" 或 "运行 Andy Follows"
+```
+Agent 会通过 AnySearch 获取数据，处理后推送给你
 
 ### 手动设置
 
@@ -135,10 +151,9 @@ cd andy-follows/scripts && npm install
 # 配置
 mkdir -p ~/.andy-follows
 cp .env.example ~/.andy-follows/.env
-# 编辑 ~/.andy-follows/.env 添加你的凭证
+# 编辑 ~/.andy-follows/.env 添加你的推送凭证（Telegram/飞书）
 
-# 运行
-node scripts/generate-digest.js && node scripts/deliver.js
+# 注意：数据获取依赖 AnySearch，无需额外 API keys
 ```
 
 ---
@@ -169,24 +184,33 @@ node scripts/generate-digest.js && node scripts/deliver.js
 ### 架构
 
 ```
-中心化 Feed (GitHub) → 你的 Agent (Claude) → AI 处理 → 多渠道推送
+本地数据获取 (AnySearch) → Claude AI 处理 → 多渠道推送
 ```
 
-1. **中心化 feed 每日更新**（通过 GitHub Actions）
-   - 从 Twitter API、RSS feeds、YouTube 转录抓取
-   - 为每个类别生成 JSON feeds
-   - 你不需要任何 API keys
+1. **本地数据获取**（用户通过 AnySearch 自行获取）
+   - 用户需要安装并配置 AnySearch MCP 服务器
+   - 通过搜索获取各信息源的最新内容
+   - 数据获取完全在本地进行，无需中央服务器
+   - 用户自主控制数据源和获取频率
 
-2. **你的 agent 本地处理**
-   - 抓取 feeds（一次 HTTP 请求）
+2. **AI 智能处理**
    - 过滤 AI 相关性（使用专用 prompt）
-   - 按类别总结（使用专门的 prompts）
+   - 按三大支柱分类总结（使用专门的 prompts）
    - 生成双语输出（如果配置）
+   - 基于优先级排序内容
 
-3. **推送到你的渠道**
+3. **多渠道推送**
    - Telegram bot
    - 飞书 webhook
    - Claude 对话内显示
+
+### 数据获取方式
+
+**本项目采用本地化数据获取方案**：
+- 用户需要通过 **AnySearch** 或类似工具手动触发数据获取
+- 不依赖中央 feed 服务器（与 follow-builders 不同）
+- 优势：完全自主控制、无需 API keys、灵活性高
+- 劣势：需要手动触发或自行配置定时任务
 
 查看 [examples/sample-digest.md](examples/sample-digest.md) 了解示例输出。
 
@@ -234,23 +258,33 @@ Andy Follows 受 Zara Zhang 的 [follow-builders](https://github.com/zarazhangru
 
 | 特性 | follow-builders | andy-follows |
 |---------|----------------|--------------|
-| **焦点** | 通用 AI 建设者 | AI + 产品/投资/IP 三大支柱 |
+| **焦点** | 通用 AI 建设者 | AI + 产品/投资/个人品牌 三大支柱 |
 | **地域** | 全球 | 仅海外（非中国） |
 | **过滤** | 通用 AI 内容 | 严格 AI 相关性 + 类别契合 |
 | **结构** | 单一统一 feed | 3 个类别 feed + 优先级排序 |
 | **信息源** | 26 Twitter + 6 播客 + 2 博客 | 28 Twitter + 5 播客 + 12 博客 |
+| **数据获取** | 中央 GitHub Actions | **本地 AnySearch（用户自主）** |
+| **API 依赖** | 中央服务器配置 API keys | **无需 API keys** |
 | **理念** | 关注建设者 | 关注建设者 + 第一性原理聚焦 |
 
-**致谢**：中心化 feed 架构和对话式设置方法改编自优秀的 follow-builders 项目。
+**核心差异**：
+- **follow-builders**：中央化 feed 服务 + 本地 AI 处理
+- **andy-follows**：完全本地化数据获取 + 本地 AI 处理
+  - 优势：无需维护中央服务器、用户完全自主控制、无 API 成本
+  - 适合：喜欢自主控制数据流的用户
+
+**致谢**：对话式设置方法和项目理念改编自优秀的 follow-builders 项目。
 
 ---
 
 ## 🔐 隐私与安全
 
-- ✅ **无 API keys 外发** — 所有内容由 GitHub Actions 集中抓取
+- ✅ **本地数据获取** — 通过 AnySearch 在本地获取公开内容，无需中央服务器
+- ✅ **无需内容 API keys** — 数据获取通过搜索工具完成，无需 Twitter/RSS API
 - ✅ **本地凭证存储** — Telegram/飞书 tokens 存储在 `~/.andy-follows/.env`
 - ✅ **仅公开内容** — 只读取公开可用的帖子、博客、播客
 - ✅ **数据保持本地** — 配置和历史永不离开你的机器
+- ✅ **用户自主控制** — 你决定何时获取数据、获取什么内容
 
 ---
 
@@ -395,6 +429,14 @@ A daily or weekly digest delivered to your preferred channel (Telegram, Lark, or
 
 ## 🚀 Quick Start
 
+### Prerequisites
+
+**Required**:
+- Claude Code or similar AI agent environment
+- **AnySearch MCP server** (for data fetching)
+  - Installation and configuration: See AnySearch official documentation
+  - Or use alternative search/data fetching tools
+
 ### For Claude Code Users
 
 1. **Clone this repository**:
@@ -403,18 +445,26 @@ git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-fol
 cd ~/.claude/skills/andy-follows/scripts && npm install
 ```
 
-2. **Set up via conversation**:
+2. **Configure AnySearch**:
+   - Ensure AnySearch MCP server is installed and running
+   - Test that search functionality works
+
+3. **Set up via conversation**:
 ```
 Say: "set up Andy Follows" or invoke /andy-follows
 ```
 
-3. **Configure delivery** (the agent will guide you):
+4. **Configure delivery** (the agent will guide you):
    - Telegram bot (optional)
    - Lark/Feishu webhook (optional)
    - Language preference (English, Chinese, or Bilingual)
-   - Frequency (daily or weekly)
+   - Trigger mode (manual or scheduled)
 
-4. **Receive your first digest immediately**
+5. **First run**:
+```
+Say: "Get today's AI updates" or "Run Andy Follows"
+```
+The agent will fetch data via AnySearch, process it, and deliver to you
 
 ### For Manual Setup
 
@@ -426,10 +476,9 @@ cd andy-follows/scripts && npm install
 # Configure
 mkdir -p ~/.andy-follows
 cp .env.example ~/.andy-follows/.env
-# Edit ~/.andy-follows/.env with your credentials
+# Edit ~/.andy-follows/.env with your delivery credentials (Telegram/Lark)
 
-# Run
-node scripts/generate-digest.js && node scripts/deliver.js
+# Note: Data fetching relies on AnySearch, no additional API keys needed
 ```
 
 ---
@@ -460,24 +509,33 @@ All sources are **overseas-focused** (primarily US/Europe) and represent **first
 ### Architecture
 
 ```
-Central Feed (GitHub) → Your Agent (Claude) → AI Processing → Multi-Channel Delivery
+Local Data Fetch (AnySearch) → Claude AI Processing → Multi-Channel Delivery
 ```
 
-1. **Central feed updated daily** (via GitHub Actions)
-   - Fetches from Twitter API, RSS feeds, YouTube transcripts
-   - Generates JSON feeds for each category
-   - No API keys needed on your end
+1. **Local data fetching** (user-initiated via AnySearch)
+   - User needs to install and configure AnySearch MCP server
+   - Fetch latest content from sources via search
+   - All data fetching happens locally, no central server needed
+   - User controls data sources and fetching frequency
 
-2. **Your agent processes locally**
-   - Fetches feeds (one HTTP request)
+2. **AI intelligent processing**
    - Filters for AI relevance (using dedicated prompt)
-   - Summarizes per category (using specialized prompts)
+   - Summarizes by three pillars (using specialized prompts)
    - Generates bilingual output if configured
+   - Orders content by priority
 
-3. **Delivered to your channels**
+3. **Multi-channel delivery**
    - Telegram bot
    - Lark/Feishu webhook
    - Claude in-chat display
+
+### Data Fetching Approach
+
+**This project uses a localized data fetching approach**:
+- Users need to trigger data fetching manually via **AnySearch** or similar tools
+- No dependency on central feed server (unlike follow-builders)
+- Advantages: Full autonomy, no API keys needed, high flexibility
+- Trade-offs: Requires manual triggering or self-configured scheduling
 
 See [examples/sample-digest.md](examples/sample-digest.md) for sample output.
 
@@ -530,18 +588,28 @@ Andy Follows is inspired by [follow-builders](https://github.com/zarazhangrui/fo
 | **Filtering** | General AI content | Strict AI relevance + category fit |
 | **Structure** | Single unified feed | 3 category feeds with priority ordering |
 | **Sources** | 26 Twitter + 6 podcasts + 2 blogs | 28 Twitter + 5 podcasts + 12 blogs |
+| **Data Fetching** | Central GitHub Actions | **Local AnySearch (user-controlled)** |
+| **API Dependencies** | Central server configures API keys | **No API keys needed** |
 | **Philosophy** | Follow builders | Follow builders + first-principles focus |
 
-**Credits**: The central feed architecture and conversational setup approach are adapted from the excellent follow-builders project.
+**Core Difference**:
+- **follow-builders**: Centralized feed service + local AI processing
+- **andy-follows**: Fully localized data fetching + local AI processing
+  - Advantages: No central server maintenance, full user autonomy, no API costs
+  - Best for: Users who prefer full control over their data flow
+
+**Credits**: The conversational setup approach and project philosophy are adapted from the excellent follow-builders project.
 
 ---
 
 ## 🔐 Privacy & Security
 
-- ✅ **No API keys sent anywhere** — All content fetched centrally by GitHub Actions
+- ✅ **Local data fetching** — Fetch public content locally via AnySearch, no central server needed
+- ✅ **No content API keys required** — Data fetching via search tools, no Twitter/RSS API needed
 - ✅ **Local credential storage** — Telegram/Lark tokens stored in `~/.andy-follows/.env`
 - ✅ **Public content only** — Only reads publicly available posts, blogs, podcasts
 - ✅ **Your data stays local** — Configuration and history never leave your machine
+- ✅ **User autonomy** — You decide when to fetch data and what content to fetch
 
 ---
 
