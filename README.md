@@ -2,6 +2,248 @@
 
 # 🚀 Andy Follows
 
+### **不再淹没在 AI 噪音中，开始向建设者学习**
+
+*你的 AI 情报系统，切穿炒作，直达第一性原理洞察——来自真正在构建、投资和塑造 AI 的人*
+
+[![GitHub stars](https://img.shields.io/github/stars/AIPMAndy/andy-follows?style=social)](https://github.com/AIPMAndy/andy-follows)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Twitter Follow](https://img.shields.io/twitter/follow/AIPMAndy?style=social)](https://twitter.com/AIPMAndy)
+
+[中文](#中文) | [English](#english)
+
+</div>
+
+---
+
+## 中文
+
+## 🎯 问题
+
+每天你都在刷：
+- 🚫 **300+ 条推文** 来自转发同样新闻的 AI 网红
+- 🚫 **几十篇博客** 作者从未真正做过 AI 产品
+- 🚫 **炒作式标题** 错过战略意义
+- 🚫 **数小时浪费** 在分离信号和噪音
+
+**你获得了信息，但没有变聪明。**
+
+---
+
+## ✨ 解决方案
+
+**Andy Follows** 是你的个人 AI 情报系统：
+
+✅ **追踪 50+ 信息源** 来自构建十亿美金 AI 公司的创始人、部署资本的 VC、用 AI 扩大影响的创作者  
+✅ **严格过滤** —— 只要有实战经验的人的 AI 相关内容  
+✅ **每日推送洞察** 按你的战略优先级组织  
+✅ **本地运行** —— 完全自主、无 API 成本、隐私优先
+
+### 💡 一条命令，完整上下文
+
+```bash
+# 不用刷 3 小时 Twitter
+/andy-follows
+
+# 15 分钟内获得：
+- Andrej Karpathy 在构建什么
+- Marc Andreessen 在投什么
+- Dan Koe 如何用 AI 将内容产出提升 10 倍
+```
+
+---
+
+## 🏗️ 服务于 Andy 自由之屋
+
+这不是又一个 AI 新闻聚合器。**Andy Follows** 服务于一个具体的战略框架：**Andy 自由之屋** —— 通过 AI 实现真正的自由（财务、时间、创作、思想）的三大支柱：
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 🏗️ AI + 产品
+**优先级 1：基础**
+
+学习如何用 AI 构建
+
+*"我能创造什么？"*
+
+</td>
+<td width="33%" align="center">
+
+### 💰 AI + 投资  
+**优先级 2：战略**
+
+理解资金流向
+
+*"什么值得做？"*
+
+</td>
+<td width="33%" align="center">
+
+### 🎨 AI + 个人品牌
+**优先级 3：放大**
+
+掌握如何扩大影响力
+
+*"如何触达用户？"*
+
+</td>
+</tr>
+</table>
+
+**协同效应**：构建产品（支柱 1）→ 用市场信号验证（支柱 2）→ 增长受众（支柱 3）→ **实现一人十亿美金公司**
+
+📖 [深入了解 Andy 自由之屋 →](docs/freedom-house.md)
+
+---
+
+## 🔥 为什么有效
+
+### Andy Follows 原则
+
+> **关注建设者，而非影响者**  
+> 追踪那些构建产品、部署资本、塑造政策的人 ——  
+> 而非仅仅谈论它的人
+
+这意味着：
+
+| ✅ 纳入 | ❌ 排除 |
+|--------|--------|
+| Andrej Karpathy（OpenAI 构建 AI 系统） | 泛泛的"AI 网红"（转发新闻） |
+| Marc Andreessen（部署数十亿美元于 AI） | "思想领袖"（没有实战） |
+| Dan Koe（用 AI 扩大创作者业务） | 鸡汤内容（无实战策略） |
+| Guillermo Rauch（发布 Vercel v0） | 科技博主（复述产品发布） |
+
+### 严格过滤
+
+**AI 优先**：马斯克的 SpaceX 发射？过滤。他的 xAI 公告？保留。  
+**海外聚焦**：AI 创新集中在美国/欧洲。中国信息源有意排除。  
+**质量标准**：你能根据这个洞察采取行动吗？如果不能，就是噪音。
+
+---
+
+## 📊 你将获得什么
+
+### 🏗️ AI + 产品（优先级 1）
+*占你摘要的 30-40%*
+
+- OpenAI、Anthropic、Google DeepMind 的产品发布
+- 实现挑战的技术深度解析
+- 来自 Vercel、Replit、Cursor 的 AI 界面 UX 模式
+- 开发者体验洞察
+
+**近期洞察**：
+- Anthropic 如何通过缓存将 Claude 延迟降低 80%
+- Vercel v0 通过 AI 优先设计达到 100 万开发者的路径
+- 为什么 Replit Agents 能实现自主代码部署
+
+### 💰 AI + 投资（优先级 2）
+*占你摘要的 30-40%*
+
+- 融资轮次和估值（OpenAI 66 亿美元、Anthropic 40 亿美元）
+- 来自 a16z、Sequoia、Thrive 的 VC 投资论文
+- 商业模式创新和单位经济
+- 市场信号：资本流向
+
+**近期洞察**：
+- a16z 论文：基础模型毛利压缩至 20-30%
+- 为什么 YC 认为垂直整合会胜出
+- 消费级 AI 证明 TAM 大于 B2B（Character.AI：1 亿月活）
+
+### 🎨 AI + 个人品牌（优先级 3）
+*占你摘要的 20-30%*
+
+- AI 辅助内容创作工作流
+- 顶级创作者的受众增长策略
+- 创作者商业模式和变现
+- 一人公司案例研究
+
+**近期洞察**：
+- Dan Koe 的 AI 工作流：5 倍内容产出，质量不变
+- Justin Welsh 的 AI 辅助 LinkedIn：月均 1000 万触达
+- 使用 AI 的创作者收入是不使用者的 2.3 倍（ConvertKit 数据）
+
+---
+
+## 🚀 快速开始（5 分钟）
+
+### Claude Code 用户
+
+```bash
+# 1. 克隆到技能目录
+git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-follows
+cd ~/.claude/skills/andy-follows/scripts && npm install
+
+# 2. 设置 AnySearch（数据源）
+# 安装：https://github.com/your-anysearch-link
+
+# 3. 配置推送（可选）
+cp .env.example ~/.andy-follows/.env
+# 添加你的 Telegram bot token 或飞书 webhook
+
+# 4. 运行
+# 在 Claude Code 中："运行 Andy Follows" 或 /andy-follows
+```
+
+### 发生什么
+
+1. **Agent 通过 AnySearch 获取数据**（Twitter、博客、播客）
+2. **Claude 过滤** AI 相关性 + 战略契合度
+3. **总结** 采用第一性原理分析
+4. **推送** 到 Telegram / 飞书 / 对话
+
+**节省时间**：3 小时刷屏 → 15 分钟阅读精选洞察
+
+---
+
+## 🎨 架构
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      你的本地机器                              │
+│                                                              │
+│  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐│
+│  │  AnySearch   │────▶│  Claude AI   │────▶│     推送     ││
+│  │  MCP 服务器  │     │     处理     │     │  (Telegram/  ││
+│  │              │     │              │     │   飞书/对话) ││
+│  │ • Twitter    │     │ • 过滤 AI    │     └──────────────┘│
+│  │ • RSS 订阅   │     │ • 总结       │                      │
+│  │ • 播客       │     │ • 翻译       │                      │
+│  └──────────────┘     └──────────────┘                      │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+        │                       │                       │
+        ▼                       ▼                       ▼
+   公开 API             Prompt 工程              你的渠道
+  (无需 keys)           (完全可定制)            (你控制)
+```
+
+**为什么本地优先？**
+- ✅ 无 API 成本（不像 follow-builders 每月 $100 Twitter API）
+- ✅ 完全控制数据源和时间
+- ✅ 隐私：你的数据永不离开你的机器
+- ✅ 可定制：即时编辑 prompts、添加信息源
+
+---
+
+*[完整中文版本请参考仓库]*
+
+---
+
+**为 Andy 自由之屋服务 — 关注建设者，而非影响者**
+
+</div>
+
+---
+
+
+## English
+
+ter">
+
+# 🚀 Andy Follows
+
 ### **Stop drowning in AI noise. Start learning from builders.**
 
 *Your AI-powered intelligence system that cuts through the hype and delivers first-principles insights from the people actually building, investing in, and shaping AI.*
@@ -415,236 +657,3 @@ Special thanks to the AI community for building in public. 🚀
 [⭐ Star on GitHub](https://github.com/AIPMAndy/andy-follows) • [📖 Read the Docs](docs/) • [🚀 Get Started](#quick-start-5-minutes)
 
 ---
-
-## 中文
-
-# 🚀 Andy Follows
-
-### **不再淹没在 AI 噪音中，开始向建设者学习**
-
-*你的 AI 情报系统，切穿炒作，直达第一性原理洞察——来自真正在构建、投资和塑造 AI 的人*
-
-[![GitHub stars](https://img.shields.io/github/stars/AIPMAndy/andy-follows?style=social)](https://github.com/AIPMAndy/andy-follows)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Twitter Follow](https://img.shields.io/twitter/follow/AIPMAndy?style=social)](https://twitter.com/AIPMAndy)
-
-</div>
-
----
-
-## 🎯 问题
-
-每天你都在刷：
-- 🚫 **300+ 条推文** 来自转发同样新闻的 AI 网红
-- 🚫 **几十篇博客** 作者从未真正做过 AI 产品
-- 🚫 **炒作式标题** 错过战略意义
-- 🚫 **数小时浪费** 在分离信号和噪音
-
-**你获得了信息，但没有变聪明。**
-
----
-
-## ✨ 解决方案
-
-**Andy Follows** 是你的个人 AI 情报系统：
-
-✅ **追踪 50+ 信息源** 来自构建十亿美金 AI 公司的创始人、部署资本的 VC、用 AI 扩大影响的创作者  
-✅ **严格过滤** —— 只要有实战经验的人的 AI 相关内容  
-✅ **每日推送洞察** 按你的战略优先级组织  
-✅ **本地运行** —— 完全自主、无 API 成本、隐私优先
-
-### 💡 一条命令，完整上下文
-
-```bash
-# 不用刷 3 小时 Twitter
-/andy-follows
-
-# 15 分钟内获得：
-- Andrej Karpathy 在构建什么
-- Marc Andreessen 在投什么
-- Dan Koe 如何用 AI 将内容产出提升 10 倍
-```
-
----
-
-## 🏗️ 服务于 Andy 自由之屋
-
-这不是又一个 AI 新闻聚合器。**Andy Follows** 服务于一个具体的战略框架：**Andy 自由之屋** —— 通过 AI 实现真正的自由（财务、时间、创作、思想）的三大支柱：
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### 🏗️ AI + 产品
-**优先级 1：基础**
-
-学习如何用 AI 构建
-
-*"我能创造什么？"*
-
-</td>
-<td width="33%" align="center">
-
-### 💰 AI + 投资  
-**优先级 2：战略**
-
-理解资金流向
-
-*"什么值得做？"*
-
-</td>
-<td width="33%" align="center">
-
-### 🎨 AI + 个人品牌
-**优先级 3：放大**
-
-掌握如何扩大影响力
-
-*"如何触达用户？"*
-
-</td>
-</tr>
-</table>
-
-**协同效应**：构建产品（支柱 1）→ 用市场信号验证（支柱 2）→ 增长受众（支柱 3）→ **实现一人十亿美金公司**
-
-📖 [深入了解 Andy 自由之屋 →](docs/freedom-house.md)
-
----
-
-## 🔥 为什么有效
-
-### Andy Follows 原则
-
-> **关注建设者，而非影响者**  
-> 追踪那些构建产品、部署资本、塑造政策的人 ——  
-> 而非仅仅谈论它的人
-
-这意味着：
-
-| ✅ 纳入 | ❌ 排除 |
-|--------|--------|
-| Andrej Karpathy（OpenAI 构建 AI 系统） | 泛泛的"AI 网红"（转发新闻） |
-| Marc Andreessen（部署数十亿美元于 AI） | "思想领袖"（没有实战） |
-| Dan Koe（用 AI 扩大创作者业务） | 鸡汤内容（无实战策略） |
-| Guillermo Rauch（发布 Vercel v0） | 科技博主（复述产品发布） |
-
-### 严格过滤
-
-**AI 优先**：马斯克的 SpaceX 发射？过滤。他的 xAI 公告？保留。  
-**海外聚焦**：AI 创新集中在美国/欧洲。中国信息源有意排除。  
-**质量标准**：你能根据这个洞察采取行动吗？如果不能，就是噪音。
-
----
-
-## 📊 你将获得什么
-
-### 🏗️ AI + 产品（优先级 1）
-*占你摘要的 30-40%*
-
-- OpenAI、Anthropic、Google DeepMind 的产品发布
-- 实现挑战的技术深度解析
-- 来自 Vercel、Replit、Cursor 的 AI 界面 UX 模式
-- 开发者体验洞察
-
-**近期洞察**：
-- Anthropic 如何通过缓存将 Claude 延迟降低 80%
-- Vercel v0 通过 AI 优先设计达到 100 万开发者的路径
-- 为什么 Replit Agents 能实现自主代码部署
-
-### 💰 AI + 投资（优先级 2）
-*占你摘要的 30-40%*
-
-- 融资轮次和估值（OpenAI 66 亿美元、Anthropic 40 亿美元）
-- 来自 a16z、Sequoia、Thrive 的 VC 投资论文
-- 商业模式创新和单位经济
-- 市场信号：资本流向
-
-**近期洞察**：
-- a16z 论文：基础模型毛利压缩至 20-30%
-- 为什么 YC 认为垂直整合会胜出
-- 消费级 AI 证明 TAM 大于 B2B（Character.AI：1 亿月活）
-
-### 🎨 AI + 个人品牌（优先级 3）
-*占你摘要的 20-30%*
-
-- AI 辅助内容创作工作流
-- 顶级创作者的受众增长策略
-- 创作者商业模式和变现
-- 一人公司案例研究
-
-**近期洞察**：
-- Dan Koe 的 AI 工作流：5 倍内容产出，质量不变
-- Justin Welsh 的 AI 辅助 LinkedIn：月均 1000 万触达
-- 使用 AI 的创作者收入是不使用者的 2.3 倍（ConvertKit 数据）
-
----
-
-## 🚀 快速开始（5 分钟）
-
-### Claude Code 用户
-
-```bash
-# 1. 克隆到技能目录
-git clone https://github.com/AIPMAndy/andy-follows.git ~/.claude/skills/andy-follows
-cd ~/.claude/skills/andy-follows/scripts && npm install
-
-# 2. 设置 AnySearch（数据源）
-# 安装：https://github.com/your-anysearch-link
-
-# 3. 配置推送（可选）
-cp .env.example ~/.andy-follows/.env
-# 添加你的 Telegram bot token 或飞书 webhook
-
-# 4. 运行
-# 在 Claude Code 中："运行 Andy Follows" 或 /andy-follows
-```
-
-### 发生什么
-
-1. **Agent 通过 AnySearch 获取数据**（Twitter、博客、播客）
-2. **Claude 过滤** AI 相关性 + 战略契合度
-3. **总结** 采用第一性原理分析
-4. **推送** 到 Telegram / 飞书 / 对话
-
-**节省时间**：3 小时刷屏 → 15 分钟阅读精选洞察
-
----
-
-## 🎨 架构
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                      你的本地机器                              │
-│                                                              │
-│  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐│
-│  │  AnySearch   │────▶│  Claude AI   │────▶│     推送     ││
-│  │  MCP 服务器  │     │     处理     │     │  (Telegram/  ││
-│  │              │     │              │     │   飞书/对话) ││
-│  │ • Twitter    │     │ • 过滤 AI    │     └──────────────┘│
-│  │ • RSS 订阅   │     │ • 总结       │                      │
-│  │ • 播客       │     │ • 翻译       │                      │
-│  └──────────────┘     └──────────────┘                      │
-│                                                              │
-└─────────────────────────────────────────────────────────────┘
-        │                       │                       │
-        ▼                       ▼                       ▼
-   公开 API             Prompt 工程              你的渠道
-  (无需 keys)           (完全可定制)            (你控制)
-```
-
-**为什么本地优先？**
-- ✅ 无 API 成本（不像 follow-builders 每月 $100 Twitter API）
-- ✅ 完全控制数据源和时间
-- ✅ 隐私：你的数据永不离开你的机器
-- ✅ 可定制：即时编辑 prompts、添加信息源
-
----
-
-*[完整中文版本请参考仓库]*
-
----
-
-**为 Andy 自由之屋服务 — 关注建设者，而非影响者**
-
-</div>
