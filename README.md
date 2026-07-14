@@ -6,11 +6,89 @@
 
 ## 🏠 服务于 Andy 自由之屋
 
-**Andy Follows** 是一个专为 **Andy 自由之屋**设计的 AI 情报系统——一个建立在三大支柱之上的战略框架，代表了 AI 与关键领域的未来交汇：
+**Andy Follows** 是一个专为 **Andy 自由之屋**设计的 AI 情报系统。
 
-1. **🏗️ AI + 产品** — 理解 AI 如何改变产品开发、设计和用户体验
-2. **💰 AI + 投资** — 追踪 AI 经济中的资本流动、市场动态和商业模式
-3. **🎨 AI + 个人品牌** — 用 AI 建设个人品牌、内容创作和创作者经济
+### 什么是 Andy 自由之屋？
+
+**Andy 自由之屋**（Andy's Freedom House）是一个战略框架，旨在通过 AI 实现个人和组织的**真正自由**——财务自由、时间自由、创作自由和思想自由。
+
+这个框架建立在**三大支柱**之上，代表了 AI 与关键领域的深度交汇：
+
+#### 🏗️ 支柱一：AI + 产品（优先级 1 - 基础能力）
+**核心问题**：如何用 AI 构建改变世界的产品？
+
+这是**基础支柱**，因为：
+- 产品是价值创造的载体
+- 理解 AI 产品开发是掌握 AI 时代的入场券
+- 从产品视角理解技术演进，而非纯技术视角
+
+**关注维度**：
+- AI 如何重构产品开发流程
+- AI 原生的用户体验设计
+- 技术实现的第一性原理
+- 开发者工具和生态系统
+- 产品策略和市场定位
+
+**为什么重要**：如果你不懂如何构建 AI 产品，你就无法判断一个 AI 公司的真正价值，无法投资正确的方向，也无法用 AI 建设自己的品牌。
+
+#### 💰 支柱二：AI + 投资（优先级 2 - 市场嗅觉）
+**核心问题**：钱在往哪里流？聪明人在押注什么？
+
+这是**战略支柱**，因为：
+- 资本流动是最诚实的信号
+- VC 的投资论文揭示未来趋势
+- 商业模式创新比技术创新更持久
+
+**关注维度**：
+- 融资动态和估值逻辑
+- 顶级 VC 的投资论文
+- 商业模式和单位经济
+- 市场格局和竞争态势
+- 并购与战略动向
+
+**为什么重要**：理解资本如何评估 AI 公司，你才能：
+- 判断哪些方向值得投入时间
+- 识别泡沫和真正的价值
+- 为自己的产品找到合理的商业模式
+
+#### 🎨 支柱三：AI + 个人品牌（优先级 3 - 影响力放大）
+**核心问题**：如何用 AI 建立个人品牌，实现一人公司的自由？
+
+这是**放大器支柱**，因为：
+- 个人品牌是 AI 时代最强的护城河
+- 创作者经济让一人公司成为可能
+- AI 让内容创作和受众增长民主化
+
+**关注维度**：
+- AI 辅助内容创作和生产力
+- 个人品牌建设和受众增长
+- 创作者商业模式（课程、社区、产品）
+- 一人公司和数字游民实践
+- 内容分发和平台策略
+
+**为什么重要**：在 AI 时代，你不需要公司、不需要团队，只需要：
+1. 用 AI 构建产品（支柱一）
+2. 理解商业模式（支柱二）
+3. 建立个人品牌获取用户（支柱三）
+
+就可以实现**一人十亿美金公司**的梦想。
+
+### 三大支柱的协同逻辑
+
+```
+AI + 产品（能力）→ AI + 投资（判断）→ AI + 个人品牌（放大）
+     ↓                    ↓                     ↓
+  我会做什么          什么值得做              如何让更多人知道
+```
+
+**举例说明**：
+1. **支柱一**：你学会了如何用 Claude API 构建 AI 写作助手
+2. **支柱二**：你发现 VC 在投"垂直领域 AI 工具"，验证了市场需求
+3. **支柱三**：你在 Twitter 分享开发过程，建立个人品牌，获得前 100 个付费用户
+
+**Andy Follows 的使命**：每天为你提供这三个支柱的最新洞察，帮助你在 AI 时代实现真正的自由。
+
+---
 
 这个系统存在的目的是回答一个问题：**AI 的建设者、投资者和塑造者们究竟在做什么、在想什么？**
 
@@ -331,11 +409,89 @@ MIT License — 可自由使用、修改和分享。
 
 ### 🏠 Serving Andy's Freedom House
 
-**Andy Follows** is an AI-powered intelligence system designed specifically for **Andy's Freedom House** — a strategic framework built on three pillars that represent the future intersection of AI with critical domains:
+**Andy Follows** is an AI-powered intelligence system designed specifically for **Andy's Freedom House**.
 
-1. **🏗️ AI + Product** — Understanding how AI transforms product development, design, and user experience
-2. **💰 AI + Investment** — Tracking capital flows, market dynamics, and business models in the AI economy  
-3. **🎨 AI + Personal Brand** — Using AI for personal branding, content creation, and creator economy
+### What is Andy's Freedom House?
+
+**Andy's Freedom House** is a strategic framework aimed at achieving **true freedom** through AI — financial freedom, time freedom, creative freedom, and intellectual freedom.
+
+This framework is built on **three pillars** that represent the deep intersection of AI with critical domains:
+
+#### 🏗️ Pillar One: AI + Product (Priority 1 - Foundational Capability)
+**Core Question**: How to build world-changing products with AI?
+
+This is the **foundational pillar** because:
+- Products are the vehicle for value creation
+- Understanding AI product development is the entry ticket to the AI era
+- View technology evolution through the product lens, not pure tech
+
+**Focus Areas**:
+- How AI reconstructs product development workflows
+- AI-native user experience design
+- First-principles thinking in technical implementation
+- Developer tools and ecosystems
+- Product strategy and market positioning
+
+**Why It Matters**: If you don't understand how to build AI products, you can't judge an AI company's true value, invest in the right direction, or use AI to build your own brand.
+
+#### 💰 Pillar Two: AI + Investment (Priority 2 - Market Intelligence)
+**Core Question**: Where is the money flowing? What are smart people betting on?
+
+This is the **strategic pillar** because:
+- Capital flows are the most honest signal
+- VC investment theses reveal future trends
+- Business model innovation outlasts technical innovation
+
+**Focus Areas**:
+- Funding dynamics and valuation logic
+- Top VC investment theses
+- Business models and unit economics
+- Market landscape and competitive dynamics
+- M&A and strategic moves
+
+**Why It Matters**: Understanding how capital evaluates AI companies enables you to:
+- Judge which directions are worth your time
+- Identify bubbles vs. real value
+- Find viable business models for your own products
+
+#### 🎨 Pillar Three: AI + Personal Brand (Priority 3 - Amplifier)
+**Core Question**: How to build personal brand with AI and achieve one-person company freedom?
+
+This is the **amplifier pillar** because:
+- Personal brand is the strongest moat in the AI era
+- Creator economy makes one-person companies possible
+- AI democratizes content creation and audience growth
+
+**Focus Areas**:
+- AI-assisted content creation and productivity
+- Personal brand building and audience growth
+- Creator business models (courses, communities, products)
+- One-person company and digital nomad practices
+- Content distribution and platform strategies
+
+**Why It Matters**: In the AI era, you don't need a company or team. You only need:
+1. Build products with AI (Pillar One)
+2. Understand business models (Pillar Two)
+3. Build personal brand to acquire users (Pillar Three)
+
+And you can achieve the dream of a **one-person billion-dollar company**.
+
+### The Synergy Logic of Three Pillars
+
+```
+AI + Product (Capability) → AI + Investment (Judgment) → AI + Personal Brand (Amplification)
+        ↓                          ↓                              ↓
+   What can I build          What's worth building         How to reach more people
+```
+
+**Example**:
+1. **Pillar One**: You learn how to build an AI writing assistant with Claude API
+2. **Pillar Two**: You discover VCs are investing in "vertical AI tools", validating market demand
+3. **Pillar Three**: You share your dev journey on Twitter, build personal brand, get your first 100 paying users
+
+**Andy Follows' Mission**: Deliver daily insights across these three pillars to help you achieve true freedom in the AI era.
+
+---
 
 This system exists to answer one question: **What are the builders, investors, and shapers of AI actually doing and thinking?**
 
