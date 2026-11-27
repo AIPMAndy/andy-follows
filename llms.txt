@@ -1,0 +1,57 @@
+# Andy Follows
+
+> AI-powered intelligence system for Andy's Freedom House: tracking AI+Product, AI+Investment, and AI+IP insights from overseas builders
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/andy-follows
+- 许可：MIT
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-27
+
+## 这是什么
+
+你的 AI 情报系统，切穿炒作，直达第一性原理洞察——来自真正在构建、投资和塑造 AI 的人
+每天你都在刷：
+- 🚫 300+ 条推文 来自转发同样新闻的 AI 网红
+- 🚫 几十篇博客 作者从未真正做过 AI 产品
+- 🚫 炒作式标题 错过战略意义
+- 🚫 数小时浪费 在分离信号和噪音
+
+## 内容目录
+
+- 中文
+- 问题
+- 解决方案
+- 服务于 Andy 自由之屋
+- 为什么有效
+- 你将获得什么
+- 快速开始（5 分钟）
+- 架构
+- English
+- The Problem
+- The Solution
+- Built for Andy's Freedom House
+- Why This Works
+- What You Get
+- Quick Start (5 Minutes)
+- Architecture
+- 50+ Premium Sources
+- Andy Follows vs. The Alternatives
+- What People Are Saying
+- Advanced Customization
+
+## 关键事实
+
+- 名称：Andy Follows
+- 类型：中文开源项目
+- 许可：MIT
+- 语言：中文
+- 最近更新：2026-11-27
+- 仓库：https://github.com/AIPMAndy/andy-follows
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://github.com/AIPMAndy/andy-follows/blob/main/llms.txt)
